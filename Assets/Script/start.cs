@@ -13,6 +13,8 @@ public class start : MonoBehaviour
 
     public VideoPlayer player;
 
+    public AudioSource audio;
+
     public Animator OnFade;
 
 
@@ -25,6 +27,7 @@ public class start : MonoBehaviour
             gamestart.SetActive(false);
             OnFade.SetTrigger("OnFade");
             player.Stop();
+            audio.Play();
             Menu.SetActive(true);
         }
     }
