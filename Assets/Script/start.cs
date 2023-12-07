@@ -27,8 +27,10 @@ public class start : MonoBehaviour
             gamestart.SetActive(false);
             OnFade.SetTrigger("OnFade");
             player.Stop();
-            audio.Play();
+            
             Menu.SetActive(true);
+            audio.mute = false;
+            audio.Play();
         }
     }
 }

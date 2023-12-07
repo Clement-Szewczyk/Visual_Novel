@@ -16,8 +16,11 @@ public class MenuButton : MonoBehaviour
     public Color CI;
     public Color CS;
 
+    bool _hidden = false;
+
     public void OnPointerEnter()
-    {
+    {   
+        if (_hidden) return;
         ImageOutline.DOKill();
         ImageOutline.DOFade(1, 0.2f);
 
@@ -32,6 +35,14 @@ public class MenuButton : MonoBehaviour
 
         Text.DOKill();
         Text.DOColor(CS, 0.2f);
+    }
+    public void Hide(float time){
+        ImageOutline.DOKill();
+        ImageOutline.DOFade(0, time);
+
+        Text.DOKill();
+        Text.DOFade(0, time);
+        _hidden = true;
     }
 
 }
