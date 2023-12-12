@@ -67,6 +67,12 @@ ajouter des choix sans conséquences !
 
 **M. Krabs**: [Furieux] "Ce malandrin est après ma formule secrète depuis des années ! On doit le suivre avant qu'il ne disparaisse dans son trou à rat !"
 
+---
+
+**FIN du jeux au 11/12/2024  23h50**
+
+---
+
 **Narrateur**: Les pièces du puzzle commençaient à s'assembler. Plankton était-il le voleur ou était-ce simplement une autre de ses ruses maladroites ? Il était temps de le découvrir.
 
 --- 

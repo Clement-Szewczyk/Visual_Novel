@@ -104,7 +104,8 @@ public class MainGame : MonoBehaviour
     }
 
     public void OnClickNextDialog()
-    {
+    {   
+        Story();
         //affichage_text();
         if (isTyping)
         {
@@ -163,6 +164,7 @@ public class MainGame : MonoBehaviour
             if(choix == 2){ // refuser
                 s_sequenceNumber = 1;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
             }
             else if(choix == 1){
                 s_sequenceNumber =7 ; // accepter
@@ -174,12 +176,82 @@ public class MainGame : MonoBehaviour
             if(choix == 1){ // refuser
                 s_sequenceNumber = 5;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
             }
             else if(choix == 2){ // accepter
                 s_sequenceNumber = s_sequenceNumber + 1;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
             }
         }
+        if(s_sequenceNumber == 4){
+            if(choix == 3){ 
+                Debug.Log("8");
+                s_sequenceNumber = 8;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
+            }
+            
+        }
+        if(s_sequenceNumber == 9){
+            if(choix == 1){ //Bureau
+
+            }else if(choix == 2){ //Salle des clients
+                s_sequenceNumber = 10;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            }
+        }
+        if(s_sequenceNumber == 15){
+            if(choix == 1){ // Dicussion
+                s_sequenceNumber = 23;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+
+            }
+            else if(choix == 2){// Accusation
+                s_sequenceNumber = 16;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+
+            }
+        }
+
+        if(s_sequenceNumber == 19){
+            if(choix == 1){// Respecter le choix
+                s_sequenceNumber = 22;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            }
+            else if(choix==2){// Ne pas respecter le choix
+                s_sequenceNumber = 20;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            }
+        }
+        if(s_sequenceNumber == 21){
+            if(choix == 3){
+                fin1();
+            }
+        }
+
+        if(s_sequenceNumber == 19){
+            if(choix == 1){// Fouille
+                s_sequenceNumber = 22;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            }
+            else if(choix==2){// Ne pas fouiller
+                s_sequenceNumber = 20;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            }
+        }
+
+        if(s_sequenceNumber == 26){
+            if(choix == 1){// Fouille
+                s_sequenceNumber = 27;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            }
+            else if(choix==2){// Ne pas fouiller
+                s_sequenceNumber = 29;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            }
+        }
+
         
         
         

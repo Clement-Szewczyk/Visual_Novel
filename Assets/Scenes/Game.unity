@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &41344506
+--- !u!1 &26716024
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,22 +131,73 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 41344507}
-  - component: {fileID: 41344508}
+  - component: {fileID: 26716026}
+  - component: {fileID: 26716025}
   m_Layer: 0
-  m_Name: Dialog9
+  m_Name: Dialog15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &41344507
+--- !u!114 &26716025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26716024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "\"Ce malandrin est apr\xE8s ma formule secr\xE8te depuis des ann\xE9es
+    ! On doit le suivre avant qu'il ne disparaisse dans son trou \xE0 rat !"
+  TextNameCharacter: M. Krabs
+  SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+--- !u!4 &26716026
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41344506}
+  m_GameObject: {fileID: 26716024}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 354628696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &32358183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 32358184}
+  - component: {fileID: 32358185}
+  m_Layer: 0
+  m_Name: Dialog10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &32358184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32358183}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -155,24 +206,126 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1672624928}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &41344508
+--- !u!114 &32358185
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41344506}
+  m_GameObject: {fileID: 32358183}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: TEST 22222
+  TextDialog: "Nous devons agir vite. Nous pouvons commencer par deux endroits o\xF9
+    la recette aurait pu dispara\xEEtre : mon bureau ou salle des clients."
+  TextNameCharacter: M. Krabs
+  SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  Choix1: Examiner le Bureau
+  Choix2: Examiner la salle des clients
+  affiche_choix: 1
+--- !u!1 &134604856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 134604857}
+  - component: {fileID: 134604858}
+  m_Layer: 0
+  m_Name: Dialog11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &134604857
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134604856}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 354628696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &134604858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134604856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "M. Krabs, avez-vous vu \xE7a ? Plankton vient de sortir en courant
+    avec quelque chose dans la main."
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
+--- !u!1 &226243137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 226243139}
+  - component: {fileID: 226243138}
+  m_Layer: 0
+  m_Name: Dialog23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &226243138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226243137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: D'accord, Plankton. Nous ne fouillerons pas sans ton accord
+  TextNameCharacter: BOB
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+--- !u!4 &226243139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226243137}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 930414690}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &248849252
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,56 +361,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &273998152
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 273998154}
-  - component: {fileID: 273998153}
-  m_Layer: 0
-  m_Name: Dialog15
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &273998153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273998152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextDialog: TEST 22222
-  TextNameCharacter: BOB
-  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  Choix1: 
-  Choix2: 
-  affiche_choix: 0
---- !u!4 &273998154
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273998152}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1672624928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &296326394
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,6 +495,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296326394}
   m_CullTransparentMesh: 1
+--- !u!1 &354628695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 354628696}
+  m_Layer: 0
+  m_Name: Salle Client
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &354628696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354628695}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 134604857}
+  - {fileID: 691268207}
+  - {fileID: 927150698}
+  - {fileID: 2078761766}
+  - {fileID: 26716026}
+  m_Father: {fileID: 1672624928}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &355509969
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,6 +665,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355509969}
   m_CullTransparentMesh: 1
+--- !u!1 &389672876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 389672877}
+  m_Layer: 0
+  m_Name: Acusation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &389672877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389672876}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2054182829}
+  - {fileID: 751461960}
+  - {fileID: 694333178}
+  - {fileID: 444529502}
+  - {fileID: 1410809264}
+  - {fileID: 930414690}
+  m_Father: {fileID: 984455227}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &433169298
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,6 +823,91 @@ RectTransform:
   m_AnchoredPosition: {x: 179, y: -444}
   m_SizeDelta: {x: 259.9135, y: 48.7338}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &444529501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 444529502}
+  - component: {fileID: 444529503}
+  m_Layer: 0
+  m_Name: Dialog20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &444529502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444529501}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 389672877}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &444529503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444529501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Jamais ! Vos accusations infond\xE9es ne vous donnent pas le droit
+    de fouiller mon domaine ! Sortez d'ici avant que je ne vous fasse sortir de force
+    !"
+  TextNameCharacter: Plankton
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  Choix1: Respecte le choix
+  Choix2: Force la fouille
+  affiche_choix: 1
+--- !u!1 &469134096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 469134097}
+  m_Layer: 0
+  m_Name: Refus_Doute
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469134097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469134096}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1767064988}
+  - {fileID: 2060720084}
+  m_Father: {fileID: 1672624928}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &493683510
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +1228,108 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &691268206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 691268207}
+  - component: {fileID: 691268208}
+  m_Layer: 0
+  m_Name: Dialog12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &691268207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691268206}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 354628696}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &691268208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691268206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Par les sept mers, c'\xE9tait s\xFBrement lui ! V\xE9rifiez autour,
+    voyez si les clients ont remarqu\xE9 autre chose."
+  TextNameCharacter: M. Krabs
+  SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+--- !u!1 &694333177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 694333178}
+  - component: {fileID: 694333179}
+  m_Layer: 0
+  m_Name: Dialog19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &694333178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694333177}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 389672877}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &694333179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694333177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "\xC9coute, Plankton, si tu n'as rien \xE0 cacher, tu nous laisseras
+    jeter un coup d'\u0153il autour de ton labo."
+  TextNameCharacter: BOB
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
 --- !u!1 &702732884
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,6 +1463,107 @@ RectTransform:
   m_AnchoredPosition: {x: 749, y: -444}
   m_SizeDelta: {x: 259.9135, y: 48.7338}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &722505428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 722505429}
+  - component: {fileID: 722505430}
+  m_Layer: 0
+  m_Name: Dialog21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &722505429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722505428}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1410809264}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &722505430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722505428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "D\xE9sol\xE9, Plankton. Je dois v\xE9rifier chaque possibilit\xE9."
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+--- !u!1 &744745362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 744745364}
+  - component: {fileID: 744745363}
+  m_Layer: 0
+  m_Name: Dialog22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &744745363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744745362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "C'est de la violation de propri\xE9t\xE9 ! Karen, appelle la police
+    !"
+  TextNameCharacter: Plankton
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+--- !u!4 &744745364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744745362}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1410809264}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &748777474
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,7 +1668,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &880496147
+--- !u!1 &751461959
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1212,48 +1676,187 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 880496148}
-  - component: {fileID: 880496149}
+  - component: {fileID: 751461960}
+  - component: {fileID: 751461961}
   m_Layer: 0
-  m_Name: Dialog8
+  m_Name: Dialog18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &880496148
+--- !u!4 &751461960
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 880496147}
+  m_GameObject: {fileID: 751461959}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1672624928}
+  m_Father: {fileID: 389672877}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &880496149
+--- !u!114 &751461961
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 880496147}
+  m_GameObject: {fileID: 751461959}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: TEST 22222
-  TextNameCharacter: BOB
+  TextDialog: "Accusations sans preuves ? C'est bas, m\xEAme pour vous. Je n'ai rien
+    pris du tout ! Vous ne trouverez rien ici."
+  TextNameCharacter: Plankton
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
+--- !u!1 &803775373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 803775375}
+  - component: {fileID: 803775374}
+  m_Layer: 0
+  m_Name: Dialog27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &803775374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803775373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Si vous voulez, fouillez si \xE7a peut vous rassurer. Vous ne trouverez
+    rien ici, sauf peut-\xEAtre quelques inventions rat\xE9es."
+  TextNameCharacter: PLankton
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  Choix1: Fouiller le Labo
+  Choix2: Ne pas fouiller le labo
+  affiche_choix: 1
+--- !u!4 &803775375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803775373}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 829542824}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &829542823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 829542824}
+  m_Layer: 0
+  m_Name: Discussion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &829542824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829542823}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1534059917}
+  - {fileID: 1459369396}
+  - {fileID: 1867346349}
+  - {fileID: 803775375}
+  - {fileID: 2043807127}
+  - {fileID: 1939655757}
+  m_Father: {fileID: 984455227}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &920097378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 920097380}
+  - component: {fileID: 920097379}
+  m_Layer: 0
+  m_Name: Dialog30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &920097379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920097378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "J'ai chang\xE9 d'avis, pardonne moi Plankton"
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+--- !u!4 &920097380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920097378}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1939655757}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &926227847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1305,7 +1908,7 @@ MonoBehaviour:
   Choix1: 
   Choix2: 
   affiche_choix: 0
---- !u!1 &942704664
+--- !u!1 &927150697
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1313,48 +1916,115 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 942704665}
-  - component: {fileID: 942704666}
+  - component: {fileID: 927150698}
+  - component: {fileID: 927150699}
   m_Layer: 0
-  m_Name: Dialog14
+  m_Name: Dialog13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &942704665
+--- !u!4 &927150698
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942704664}
+  m_GameObject: {fileID: 927150697}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1672624928}
+  m_Father: {fileID: 354628696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &942704666
+--- !u!114 &927150699
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942704664}
+  m_GameObject: {fileID: 927150697}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: TEST 22222
+  TextDialog: "Bonjour, avez-vous vu ce petit \xEAtre vert qui vient de sortir pr\xE9cipitamment
+    ?"
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
+--- !u!1 &930414689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 930414690}
+  m_Layer: 0
+  m_Name: Pas_fouille
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &930414690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930414689}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 226243139}
+  m_Father: {fileID: 389672877}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &984455226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 984455227}
+  m_Layer: 0
+  m_Name: Poursuit Plankton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &984455227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984455226}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1991143539}
+  - {fileID: 389672877}
+  - {fileID: 829542824}
+  m_Father: {fileID: 1672624928}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1167697598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1476,106 +2146,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167697598}
   m_CullTransparentMesh: 1
---- !u!1 &1201308107
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1201308108}
-  - component: {fileID: 1201308109}
-  m_Layer: 0
-  m_Name: Dialog10
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1201308108
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201308107}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1672624928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1201308109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201308107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextDialog: TEST 22222
-  TextNameCharacter: BOB
-  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  Choix1: 
-  Choix2: 
-  affiche_choix: 0
---- !u!1 &1279217807
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1279217808}
-  - component: {fileID: 1279217809}
-  m_Layer: 0
-  m_Name: Dialog12
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1279217808
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279217807}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1672624928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1279217809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279217807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextDialog: TEST 22222
-  TextNameCharacter: BOB
-  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  Choix1: 
-  Choix2: 
-  affiche_choix: 0
 --- !u!1 &1366246957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,7 +2157,7 @@ GameObject:
   - component: {fileID: 1366246959}
   - component: {fileID: 1366246958}
   m_Layer: 0
-  m_Name: Dialog6
+  m_Name: Dialog8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1732,6 +2302,39 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!1 &1410809263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1410809264}
+  m_Layer: 0
+  m_Name: "fouille_forc\xE9"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1410809264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410809263}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 722505429}
+  - {fileID: 744745364}
+  m_Father: {fileID: 389672877}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1416642916
 GameObject:
   m_ObjectHideFlags: 0
@@ -1800,6 +2403,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1459369395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1459369396}
+  - component: {fileID: 1459369397}
+  m_Layer: 0
+  m_Name: Dialog25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1459369396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459369395}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 829542824}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1459369397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459369395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Oh, \xE7a ? Juste une liste de courses. Karen me rappelle sans cesse
+    de ne pas oublier le sel. Qu'est-ce qui vous am\xE8ne ?"
+  TextNameCharacter: PLankton
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
 --- !u!1 &1522707570
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,6 +2500,57 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: "Attendez, M. Krabs ! Je me suis peut-\xEAtre emport\xE9. Votre restaurant
     compte plus que mes doutes. Je suis avec vous, voyons ce que nous pouvons faire."
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+--- !u!1 &1534059916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1534059917}
+  - component: {fileID: 1534059918}
+  m_Layer: 0
+  m_Name: Dialog24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1534059917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534059916}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 829542824}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1534059918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534059916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Plankton, on t'a vu sortir pr\xE9cipitamment du Crabe Croustillant.
+    Que faisais-tu avec ce papier ?"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   Choix1: 
@@ -1898,7 +2603,7 @@ MonoBehaviour:
   TextDialog: "Humph, j'esp\xE8re que vous \xEAtes sinc\xE8re. Nous n'avons pas de
     temps \xE0 perdre. Venez, nous avons une recette \xE0 retrouver !"
   TextNameCharacter: M. Krabs
-  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -1912,7 +2617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1611789861}
   m_Layer: 0
-  m_Name: FIN_doute
+  m_Name: Doute
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2043,70 +2748,14 @@ Transform:
   m_Children:
   - {fileID: 1386303931}
   - {fileID: 1611789861}
+  - {fileID: 469134097}
   - {fileID: 1366246959}
   - {fileID: 1764489492}
-  - {fileID: 1767064988}
-  - {fileID: 2060720084}
-  - {fileID: 880496148}
-  - {fileID: 41344507}
-  - {fileID: 1201308108}
-  - {fileID: 2077664994}
-  - {fileID: 1279217808}
-  - {fileID: 1703155120}
-  - {fileID: 942704665}
-  - {fileID: 273998154}
+  - {fileID: 32358184}
+  - {fileID: 354628696}
+  - {fileID: 984455227}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1703155119
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1703155120}
-  - component: {fileID: 1703155121}
-  m_Layer: 0
-  m_Name: Dialog13
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1703155120
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1703155119}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1672624928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1703155121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1703155119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TextDialog: TEST 22222
-  TextNameCharacter: BOB
-  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  Choix1: 
-  Choix2: 
-  affiche_choix: 0
 --- !u!1 &1732954242
 GameObject:
   m_ObjectHideFlags: 0
@@ -2193,7 +2842,7 @@ GameObject:
   - component: {fileID: 1764489492}
   - component: {fileID: 1764489493}
   m_Layer: 0
-  m_Name: Dialog7
+  m_Name: Dialog9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2230,8 +2879,8 @@ MonoBehaviour:
     sur vous. Suivez moi !"
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  Choix1: TEST2
-  Choix2: TEST2
+  Choix1: 
+  Choix2: 
   affiche_choix: 0
 --- !u!1 &1767064987
 GameObject:
@@ -2258,12 +2907,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767064987}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1672624928}
+  m_Father: {fileID: 469134097}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1767064989
 MonoBehaviour:
@@ -2277,7 +2926,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: TEST 22222
+  TextDialog: "Peut-\xEAtre que vous avez raison, M. Krabs. Peut-\xEAtre que je ne
+    suis pas fait pour ce genre de travail. Je vais partir."
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   Choix1: 
@@ -2417,6 +3067,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852623728}
   m_CullTransparentMesh: 1
+--- !u!1 &1867346348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1867346349}
+  - component: {fileID: 1867346350}
+  m_Layer: 0
+  m_Name: Dialog26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1867346349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867346348}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 829542824}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1867346350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867346348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "\xC9coute, Plankton, si tu n'as rien \xE0 cacher, tu nous laisseras
+    jeter un coup d'\u0153il autour de ton labo."
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
 --- !u!1 &1878374727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2493,6 +3194,88 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878374727}
   m_CullTransparentMesh: 1
+--- !u!1 &1939655756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1939655757}
+  m_Layer: 0
+  m_Name: Pas Fouille
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1939655757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939655756}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 920097380}
+  m_Father: {fileID: 829542824}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1947220400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1947220401}
+  - component: {fileID: 1947220402}
+  m_Layer: 0
+  m_Name: Dialog29
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1947220401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947220400}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2043807127}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1947220402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947220400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Allez-y, mais ne touchez \xE0 rien ! Et rappelez-vous, je suis innocent."
+  TextNameCharacter: Plankton
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
 --- !u!1 &1959234287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2585,6 +3368,191 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1971758406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1971758407}
+  - component: {fileID: 1971758408}
+  m_Layer: 0
+  m_Name: Dialog28
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1971758407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971758406}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2043807127}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1971758408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971758406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: Merci de nous laisser faire, Plankton. Nous serons rapides.
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+--- !u!1 &1991143538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1991143539}
+  - component: {fileID: 1991143540}
+  m_Layer: 0
+  m_Name: Dialog16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1991143539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991143538}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 984455227}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1991143540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991143538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "M. Krabs, avez-vous vu \xE7a ? Plankton vient de sortir en courant
+    avec quelque chose dans la main."
+  TextNameCharacter: M. Krab
+  SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  Choix1: Discuter avec Plankton
+  Choix2: Accuser Plankton
+  affiche_choix: 1
+--- !u!1 &2043807126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2043807127}
+  m_Layer: 0
+  m_Name: Fouille
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2043807127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043807126}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1971758407}
+  - {fileID: 1947220401}
+  m_Father: {fileID: 829542824}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2054182828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2054182829}
+  - component: {fileID: 2054182830}
+  m_Layer: 0
+  m_Name: Dialog17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2054182829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054182828}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 389672877}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2054182830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054182828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: On sait que tu as pris quelque chose, Plankton ! Rends la recette de
+    M. Krabs maintenant !
+  TextNameCharacter: BOB
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
 --- !u!1 &2060720083
 GameObject:
   m_ObjectHideFlags: 0
@@ -2610,12 +3578,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060720083}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1672624928}
+  m_Father: {fileID: 469134097}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2060720085
 MonoBehaviour:
@@ -2629,13 +3597,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: TEST 22222
-  TextNameCharacter: BOB
-  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  TextDialog: "Eh bien, c'est dommage de vous voir choisir \xE7a, mais je suppose
+    que je dois respecter votre d\xE9cision. Au revoir."
+  TextNameCharacter: M Krabs
+  SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
---- !u!1 &2077664993
+--- !u!1 &2078761765
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2643,44 +3612,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2077664994}
-  - component: {fileID: 2077664995}
+  - component: {fileID: 2078761766}
+  - component: {fileID: 2078761767}
   m_Layer: 0
-  m_Name: Dialog11
+  m_Name: Dialog14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2077664994
+--- !u!4 &2078761766
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077664993}
+  m_GameObject: {fileID: 2078761765}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1672624928}
+  m_Father: {fileID: 354628696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2077664995
+--- !u!114 &2078761767
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077664993}
+  m_GameObject: {fileID: 2078761765}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: TEST 22222
-  TextNameCharacter: BOB
+  TextDialog: "Oh oui, il a nag\xE9 \xE0 toute vitesse avec un morceau de papier.
+    Il semblait tr\xE8s content de lui."
+  TextNameCharacter: Client
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   Choix1: 
   Choix2: 
@@ -2723,8 +3693,31 @@ MonoBehaviour:
   - {fileID: 517368180}
   - {fileID: 1522707572}
   - {fileID: 1568590920}
+  - {fileID: 1767064989}
+  - {fileID: 2060720085}
   - {fileID: 1366246958}
   - {fileID: 1764489493}
+  - {fileID: 32358185}
+  - {fileID: 134604858}
+  - {fileID: 691268208}
+  - {fileID: 927150699}
+  - {fileID: 2078761767}
+  - {fileID: 26716025}
+  - {fileID: 1991143540}
+  - {fileID: 2054182830}
+  - {fileID: 751461961}
+  - {fileID: 694333179}
+  - {fileID: 444529503}
+  - {fileID: 722505430}
+  - {fileID: 744745363}
+  - {fileID: 226243138}
+  - {fileID: 1534059918}
+  - {fileID: 1459369397}
+  - {fileID: 1867346350}
+  - {fileID: 803775374}
+  - {fileID: 1971758408}
+  - {fileID: 1947220402}
+  - {fileID: 920097379}
   s_sequenceNumber: 0
   choix1: {fileID: 1167697598}
   choix2: {fileID: 433169298}
