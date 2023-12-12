@@ -34,65 +34,87 @@ public class MainGame : MonoBehaviour
     
 
     void Start()
-    {   
+    {   // On cache les boutons non utilisés
         HideButon();
+        // On affiche le premier dialogue
         UpdateDialogSequence(Dialog[0]);
+        // On ajoute un listener sur les boutons
         choix1.GetComponent<Button>().onClick.AddListener(Bouton1);
         choix2.GetComponent<Button>().onClick.AddListener(Bouton2);
         buttonNext.GetComponent<Button>().onClick.AddListener(Next);
+        // On appelle la fonction Story pour gérer les choix
         Story();
+        // On met la narration à false
         Dialog[s_sequenceNumber].narration = false;
         
     }
 
+    // Quand on clique sur le bouton 1
     void Bouton1(){
         choix = 1;
         Story();
     }
     
+    // Quand on clique sur le bouton 2
     void Bouton2(){
         choix = 2;
         Story();
     }
 
+    // Quand on clique sur le bouton next
     void Next(){
+        Debug.Log("next");
         choix = 3;
         if(s_sequenceNumber == 7 ){
             Debug.Log("fin");
             fin1();
         }
+        Story();
+        
     }
 
     void Update()
     {   
+        // On gère la narration
+        narration();
+        // On gère les buttons
+        button();
+        // On ajoute un listener sur les boutons
         choix1.GetComponent<Button>().onClick.AddListener(Bouton1);
         choix2.GetComponent<Button>().onClick.AddListener(Bouton2);
         buttonNext.GetComponent<Button>().onClick.AddListener(Next);
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             affichage_text();
         }
-        button();
-        Debug.Log("numéro de la séquence : " + s_sequenceNumber);
-        Debug.Log("narration : " + Dialog[s_sequenceNumber].narration);
 
-        narration();
+
+
+        Debug.Log("numéro de la séquence : " + s_sequenceNumber);
+
+        
         
     }
 
+    // On met à jour le dialogue
     void UpdateDialogSequence(DialogueSequence sequence)
     {   
         
-        Debug.Log("TEST");
+        Debug.Log("UpdateDialogSequence en affichant la sequence : " + sequence);
+        Debug.Log("Choix " + choix);
         //StartCoroutine(TypeText(sequence.TextDialog));
+        // On met à jour les éléments du dialogue
         TextDialog.text = sequence.TextDialog;
         TextCharacterName.text = sequence.TextNameCharacter;
         ImageCharacter.sprite = sequence.SpriteCharacter;
         ImageBackground.sprite = sequence.SpriteBackground;
+        // On met à jour les choix
         choix1.GetComponentInChildren<TMP_Text>().text = sequence.Choix1;
         choix2.GetComponentInChildren<TMP_Text>().text = sequence.Choix2;
     }
 
+    // On affiche le texte lettre par lettre
     IEnumerator TypeText(string text)
     {
         isTyping = true;
@@ -109,6 +131,7 @@ public class MainGame : MonoBehaviour
         isTyping = false;
     }
 
+    // On affiche tout le texte
     public void affichage_text(){
         // Si le texte est encore en train de s'afficher, affiche immédiatement tout le texte.
         //StopAllCoroutines();
@@ -116,9 +139,13 @@ public class MainGame : MonoBehaviour
         isTyping = false;
     }
 
+
+    // On gère le bouton next
     public void OnClickNextDialog()
     {   
+        Debug.Log("JE PASSSSE");
         Story();
+        Debug.Log("J'ai pas fait la STORYYYYYYYY");
         affichage_text();
         if (isTyping)
         {
@@ -137,7 +164,7 @@ public class MainGame : MonoBehaviour
 
     }
 
-   
+    // On cache les boutons
     public void HideButon()
     {
         if (s_sequenceNumber == Dialog.Length - 1)
@@ -158,6 +185,7 @@ public class MainGame : MonoBehaviour
         }*/
     }
 
+    // On gère les boutons
     public void button(){
         if(Dialog[s_sequenceNumber].affiche_choix == true){
             buttonNext.SetActive(false);
@@ -171,9 +199,8 @@ public class MainGame : MonoBehaviour
         }
     }
 
-
+    // On gère les choix pour les différentes séquences qui en ont besoin
     public void Story(){
-        
         if(s_sequenceNumber == 0){
             if(choix == 2){ // refuser
                 s_sequenceNumber = 1;
@@ -249,17 +276,22 @@ public class MainGame : MonoBehaviour
 
         if(s_sequenceNumber == 21){
             if(choix == 3){
-                fin1();
+                s_sequenceNumber = 64;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
             }
         }
 
-        if(s_sequenceNumber == 22){ // TODO
+        if(s_sequenceNumber == 22){
+            Debug.Log("Je suis au 22 donc dialogue 23");
+            Debug.Log("choix : " + choix);
             if(choix == 3){
-                s_sequenceNumber = 31;
+                Debug.Log("Je vais au 64 donc dialogue 65");
+                s_sequenceNumber = 64;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
-                choix = 0;
+
             }
         }
+    
 
         if(s_sequenceNumber == 26){
             if(choix == 1){// Fouille
@@ -365,13 +397,13 @@ public class MainGame : MonoBehaviour
             }
         }
 
-        
-
-        
-        
+        if(s_sequenceNumber == 64){
+            fin1();
+        }
+ 
     }
 
-
+    // On gère la narration
     public void narration(){
         if(Dialog[s_sequenceNumber].narration == true){
             Debug.Log("narration");
@@ -389,6 +421,7 @@ public class MainGame : MonoBehaviour
         }
     }
 
+    // On gère la fin
     public void fin1(){
             Game.SetActive(false);
             End.SetActive(true);
