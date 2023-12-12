@@ -10,6 +10,7 @@ public class MainGame : MonoBehaviour
     public TMP_Text TextDialog;
     public TMP_Text TextCharacterName;
     public Image ImageCharacter;
+    public Image ImageBackground;
     public DialogueSequence[] Dialog;
     public int s_sequenceNumber = 0;
 
@@ -27,6 +28,7 @@ public class MainGame : MonoBehaviour
 
     private int Fin1 = 0;
 
+    private bool Plankton;
     
 
     void Start()
@@ -84,6 +86,7 @@ public class MainGame : MonoBehaviour
         TextDialog.text = sequence.TextDialog;
         TextCharacterName.text = sequence.TextNameCharacter;
         ImageCharacter.sprite = sequence.SpriteCharacter;
+        ImageBackground.sprite = sequence.SpriteBackground;
         choix1.GetComponentInChildren<TMP_Text>().text = sequence.Choix1;
         choix2.GetComponentInChildren<TMP_Text>().text = sequence.Choix2;
     }
@@ -108,13 +111,13 @@ public class MainGame : MonoBehaviour
         // Si le texte est encore en train de s'afficher, affiche immédiatement tout le texte.
         //StopAllCoroutines();
         TextDialog.text = Dialog[s_sequenceNumber].TextDialog;
-        //isTyping = false;
+        isTyping = false;
     }
 
     public void OnClickNextDialog()
     {   
         Story();
-        //affichage_text();
+        affichage_text();
         if (isTyping)
         {
             affichage_text();
@@ -248,7 +251,7 @@ public class MainGame : MonoBehaviour
             }
         }
 
-        if(s_sequenceNumber == 22){
+        if(s_sequenceNumber == 22){ // TODO
             if(choix == 3){
                 s_sequenceNumber = 31;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
@@ -262,36 +265,94 @@ public class MainGame : MonoBehaviour
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
                 choix = 0;
             }
-            else if(choix==2){// Ne pas fouiller
-                s_sequenceNumber = 29;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
-                choix = 0;
-            }
-        }
-
-        if(s_sequenceNumber == 28){
-            if(choix == 3){
+            else if(choix==2){// Ne pas fouiller /// TODO
                 s_sequenceNumber = 30;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
                 choix = 0;
             }
         }
+
 
         if(s_sequenceNumber == 29){
-            if(choix == 3){
-                s_sequenceNumber = 30;
+            if(choix == 1){ // accuser
+                fin1();
+            }
+            else if(choix == 2){// rien faire
+                s_sequenceNumber = 31;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
                 choix = 0;
             }
         }
 
-       if(s_sequenceNumber == 30){
+        if(s_sequenceNumber == 30){
             if(choix == 1){// Acusation 
                 fin1();
             }
-            else if(choix==2){// Ne pas fouiller
+            else if(choix==2){// Rien faire
                 s_sequenceNumber = 31;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            }
+        }
+
+        if(s_sequenceNumber == 31){
+            Plankton = true;
+        }
+
+        if (s_sequenceNumber == 39){
+            if(choix == 1){//Confronter
+                s_sequenceNumber = 40;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            }
+            else if(choix == 2){//Rester dans le bureau 
+                s_sequenceNumber = 51;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            }
+        }
+
+        if(s_sequenceNumber == 45){
+            if(choix == 1){//Fouille la maison
+                s_sequenceNumber = 48;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);  
+            }
+            else if(choix ==2){// piège
+                s_sequenceNumber = 46;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            }
+        }
+        if(s_sequenceNumber == 47){
+            if(choix == 3){//Fin
+                fin1();
+            }
+            
+        }
+
+        if(s_sequenceNumber == 50){
+            if(choix == 3){//Fin
+                fin1();
+            }
+        }
+        
+        if(s_sequenceNumber == 58){
+            if(choix == 1){//Fouille la maison
+               s_sequenceNumber = 61;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]); 
+            }
+            else if(choix ==2){// piège
+                s_sequenceNumber = 59;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                
+            }
+        }
+
+        if(s_sequenceNumber == 60){
+            if(choix == 3){//Fin
+                fin1();
+            }
+        }
+
+        if(s_sequenceNumber == 63){
+            if(choix == 3){//Fin
+                fin1();
             }
         }
 

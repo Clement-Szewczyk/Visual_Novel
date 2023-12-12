@@ -7,6 +7,8 @@ public class DialogueSequence : MonoBehaviour
     public string TextDialog;
     public string TextNameCharacter; 
     public Sprite SpriteCharacter;
+
+    public Sprite SpriteBackground;
     public string Choix1;
     public string Choix2;
 

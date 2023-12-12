@@ -156,6 +156,7 @@ MonoBehaviour:
     ! On doit le suivre avant qu'il ne disparaisse dans son trou \xE0 rat !"
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -223,9 +224,168 @@ MonoBehaviour:
     la recette aurait pu dispara\xEEtre : mon bureau ou salle des clients."
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: Examiner le Bureau
   Choix2: Examiner la salle des clients
   affiche_choix: 1
+  narration: 1
+--- !u!1 &44783207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 44783208}
+  - component: {fileID: 44783209}
+  m_Layer: 0
+  m_Name: Dialog62
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &44783208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44783207}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2035737170}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &44783209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44783207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Cherchons discr\xE8tement. Il doit y avoir quelque chose ici."
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 0
+--- !u!1 &58478033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 58478035}
+  - component: {fileID: 58478034}
+  m_Layer: 0
+  m_Name: Dialog41
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &58478034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58478033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: M. Krabs, je pense savoir qui a pris la recette. C'est l'heure de la
+    confrontation.
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 0
+--- !u!4 &58478035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58478033}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 710439139}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &86347657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 86347658}
+  - component: {fileID: 86347659}
+  m_Layer: 0
+  m_Name: Dialog58
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &86347658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86347657}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 455986780}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &86347659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86347657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Arm\xE9 de cette nouvelle information, vous d\xE9cidez de vous rendre
+    chez l'ancien employ\xE9, pr\xEAt \xE0 affronter ce qui vous attend."
+  TextNameCharacter: 
+  SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
   narration: 1
 --- !u!1 &134604856
 GameObject:
@@ -275,6 +435,7 @@ MonoBehaviour:
     avec quelque chose dans la main."
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -311,6 +472,7 @@ MonoBehaviour:
   TextDialog: D'accord, Plankton. Nous ne fouillerons pas sans ton accord
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -330,6 +492,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 930414690}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &247489627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 247489628}
+  - component: {fileID: 247489629}
+  m_Layer: 0
+  m_Name: Dialog45
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &247489628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247489627}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 710439139}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &247489629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247489627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "L'employ\xE9 s'enfuit \xE0 toute vitesse. Si le coupable de veut pas
+    se d\xE9noncer, alors il est temps d'aller chercher les preuves vous m\xEAme
+    chez lui !"
+  TextNameCharacter: 
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 1
 --- !u!1 &248849252
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,6 +581,59 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &258383088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 258383089}
+  - component: {fileID: 258383090}
+  m_Layer: 0
+  m_Name: Dialog52
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &258383089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258383088}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 455986780}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &258383090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258383088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "M. Krabs, pouvez-vous me parler de cet ancien employ\xE9 ? Comment
+    \xE9tait-il ?"
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 0
 --- !u!1 &296326394
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,6 +939,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355509969}
   m_CullTransparentMesh: 1
+--- !u!1 &385718763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 385718764}
+  - component: {fileID: 385718765}
+  m_Layer: 0
+  m_Name: Dialog56
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &385718764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385718763}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 455986780}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &385718765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385718763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Peut-\xEAtre devrions-nous aller voir chez lui ? Cela pourrait nous
+    donner plus d'indices."
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 0
 --- !u!1 &389672876
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,6 +1064,7 @@ MonoBehaviour:
     se dessiner."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: Confornter le coupable
   Choix2: "Continuer l'enqu\xEAte dans le bureau"
   affiche_choix: 1
@@ -761,6 +1084,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1400626226}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &401395037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 401395038}
+  - component: {fileID: 401395039}
+  m_Layer: 0
+  m_Name: Dialog42
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &401395038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401395037}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 710439139}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &401395039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401395037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Vous vous dirigez r\xE9solument vers l'ancien employ\xE9, qui se tient
+    non loin, l'air nerveux mais essayant de se fondre dans la foule."
+  TextNameCharacter: 
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 1
 --- !u!1 &433169298
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,6 +1258,58 @@ RectTransform:
   m_AnchoredPosition: {x: 179, y: -444}
   m_SizeDelta: {x: 259.9135, y: 48.7338}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &444459650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 444459651}
+  - component: {fileID: 444459652}
+  m_Layer: 0
+  m_Name: Dialog60
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &444459651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444459650}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1119723461}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &444459652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444459650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Si on lui tend un pi\xE8ge, il tombera peut-\xEAtre dans nos filets."
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 0
 --- !u!1 &444529501
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,11 +1358,53 @@ MonoBehaviour:
     de fouiller mon domaine ! Sortez d'ici avant que je ne vous fasse sortir de force
     !"
   TextNameCharacter: Plankton
-  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 2cd916e4c821de747a5eb9b1f0aaf921, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: Respecte le choix
   Choix2: Force la fouille
   affiche_choix: 1
   narration: 0
+--- !u!1 &455986779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 455986780}
+  m_Layer: 0
+  m_Name: "enqu\xEAte"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &455986780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455986779}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 258383089}
+  - {fileID: 1965973888}
+  - {fileID: 1938375115}
+  - {fileID: 1517933772}
+  - {fileID: 385718764}
+  - {fileID: 2015348700}
+  - {fileID: 86347658}
+  - {fileID: 1995921386}
+  - {fileID: 1119723461}
+  - {fileID: 2035737170}
+  m_Father: {fileID: 1400626226}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &469134096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,9 +1621,115 @@ MonoBehaviour:
     que lorsque vous serez pr\xEAts \xE0 m'aider !"
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: Refuser d'aider
   Choix2: "Aider quand m\xEAme"
   affiche_choix: 1
+  narration: 0
+--- !u!1 &585372324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 585372325}
+  - component: {fileID: 585372326}
+  m_Layer: 0
+  m_Name: Dialog43
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &585372325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585372324}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 710439139}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &585372326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585372324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: Vous ! Je sais que c'est vous qui avez pris la recette. Il est temps
+    d'avouer.
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 0
+--- !u!1 &603353145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 603353146}
+  - component: {fileID: 603353147}
+  m_Layer: 0
+  m_Name: Dialog49
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &603353146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603353145}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 974150487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &603353147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603353145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Il vaut mieux fouiller la maison, mais il faut \xEAtre rapide."
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
   narration: 0
 --- !u!1 &633082614
 GameObject:
@@ -1337,6 +1913,7 @@ MonoBehaviour:
     voyez si les clients ont remarqu\xE9 autre chose."
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -1389,6 +1966,7 @@ MonoBehaviour:
     jeter un coup d'\u0153il autour de ton labo."
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -1526,6 +2104,45 @@ RectTransform:
   m_AnchoredPosition: {x: 749, y: -444}
   m_SizeDelta: {x: 259.9135, y: 48.7338}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &710439138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 710439139}
+  m_Layer: 0
+  m_Name: Confrontation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &710439139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710439138}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 58478035}
+  - {fileID: 401395038}
+  - {fileID: 585372325}
+  - {fileID: 1235390164}
+  - {fileID: 247489628}
+  - {fileID: 1116645017}
+  - {fileID: 961398780}
+  - {fileID: 974150487}
+  m_Father: {fileID: 1400626226}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &722505428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1573,6 +2190,7 @@ MonoBehaviour:
   TextDialog: "D\xE9sol\xE9, Plankton. Je dois v\xE9rifier chaque possibilit\xE9."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -1609,7 +2227,8 @@ MonoBehaviour:
   TextDialog: "C'est de la violation de propri\xE9t\xE9 ! Karen, appelle la police
     !"
   TextNameCharacter: Plankton
-  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 2cd916e4c821de747a5eb9b1f0aaf921, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -1780,7 +2399,8 @@ MonoBehaviour:
   TextDialog: "Accusations sans preuves ? C'est bas, m\xEAme pour vous. Je n'ai rien
     pris du tout ! Vous ne trouverez rien ici."
   TextNameCharacter: Plankton
-  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 2cd916e4c821de747a5eb9b1f0aaf921, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -1817,7 +2437,8 @@ MonoBehaviour:
   TextDialog: "Si vous voulez, fouillez si \xE7a peut vous rassurer. Vous ne trouverez
     rien ici, sauf peut-\xEAtre quelques inventions rat\xE9es."
   TextNameCharacter: PLankton
-  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 2cd916e4c821de747a5eb9b1f0aaf921, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: Fouiller le Labo
   Choix2: Ne pas fouiller le labo
   affiche_choix: 1
@@ -1837,6 +2458,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 829542824}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &817878275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 817878276}
+  - component: {fileID: 817878277}
+  m_Layer: 0
+  m_Name: Dialog63
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &817878276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817878275}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2035737170}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &817878277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817878275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Vous vous faufilez \xE0 l'int\xE9rieur et, apr\xE8s une recherche
+    minutieuse, vous trouvez un papier soigneusement cach\xE9. C'est la recette secr\xE8te
+    de M. Krabs !"
+  TextNameCharacter: 
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 1
 --- !u!1 &829542823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,6 +2599,7 @@ MonoBehaviour:
     la pi\xE8ce, vous remarquez.."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -1976,6 +2652,7 @@ MonoBehaviour:
     gard\xE9e ici ?"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -1991,7 +2668,7 @@ GameObject:
   - component: {fileID: 920097380}
   - component: {fileID: 920097379}
   m_Layer: 0
-  m_Name: Dialog30
+  m_Name: Dialog31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2012,6 +2689,7 @@ MonoBehaviour:
   TextDialog: "J'ai chang\xE9 d'avis, pardonne moi Plankton"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2079,6 +2757,7 @@ MonoBehaviour:
     ? Peut-\xEAtre que vous l'avez juste \xE9gar\xE9e..."
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2131,6 +2810,7 @@ MonoBehaviour:
     ?"
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2214,10 +2894,78 @@ MonoBehaviour:
   TextDialog: Vous retournez au Krusty Krab
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: "Continuer l'enqu\xEAte dans le bureay"
   Choix2: Quitter le jeu
   affiche_choix: 1
   narration: 1
+--- !u!1 &961398779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 961398780}
+  m_Layer: 0
+  m_Name: "Pi\xE8ge"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &961398780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961398779}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1344844980}
+  - {fileID: 1786582584}
+  m_Father: {fileID: 710439139}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &974150486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 974150487}
+  m_Layer: 0
+  m_Name: fouille
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &974150487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974150486}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 603353146}
+  - {fileID: 1939498120}
+  - {fileID: 2000537682}
+  m_Father: {fileID: 710439139}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &984455226
 GameObject:
   m_ObjectHideFlags: 0
@@ -2301,10 +3049,97 @@ MonoBehaviour:
     il \xE9tait particuli\xE8rement rancunier."
   TextNameCharacter: M.Krab
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
   narration: 0
+--- !u!1 &1116645015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1116645017}
+  - component: {fileID: 1116645016}
+  m_Layer: 0
+  m_Name: Dialog46
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1116645016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116645015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Devant la demeure d\xE9labr\xE9e de l'ancien employ\xE9, vous r\xE9fl\xE9chissez
+    \xE0 votre prochaine action."
+  TextNameCharacter: 
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: "Fouiller la maison dicr\xE8tement"
+  Choix2: "Tendre un pi\xE8ge"
+  affiche_choix: 1
+  narration: 0
+--- !u!4 &1116645017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116645015}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 710439139}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1119723460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119723461}
+  m_Layer: 0
+  m_Name: "pi\xE8ge"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119723461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119723460}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 444459651}
+  - {fileID: 1411660489}
+  m_Father: {fileID: 455986780}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1167697598
 GameObject:
   m_ObjectHideFlags: 0
@@ -2458,6 +3293,110 @@ Transform:
   - {fileID: 939448290}
   m_Father: {fileID: 984455227}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1235390162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1235390164}
+  - component: {fileID: 1235390163}
+  m_Layer: 0
+  m_Name: Dialog44
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1235390163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235390162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: Je... je ne sais pas de quoi vous parlez ! Laissez-moi tranquille !
+  TextNameCharacter: Carlos
+  SpriteCharacter: {fileID: 21300000, guid: d7afffa7729dacf4e813fcd08e10ae32, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 0
+--- !u!4 &1235390164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235390162}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 710439139}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1344844979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1344844980}
+  - component: {fileID: 1344844981}
+  m_Layer: 0
+  m_Name: Dialog47
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1344844980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344844979}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 961398780}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1344844981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344844979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Si on lui tend un pi\xE8ge, il tombera peut-\xEAtre dans nos filets."
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 0
 --- !u!1 &1366246957
 GameObject:
   m_ObjectHideFlags: 0
@@ -2491,6 +3430,7 @@ MonoBehaviour:
     tout de suite et retrouver votre recette !"
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2558,6 +3498,7 @@ MonoBehaviour:
     et sans elle, le Crabe Croustillant est fini !"
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: "Aider M. Krabs imm\xE9diatement."
   Choix2: Exprimer des doutes.
   affiche_choix: 1
@@ -2599,6 +3540,8 @@ Transform:
   - {fileID: 2023946043}
   - {fileID: 1035624907}
   - {fileID: 400491231}
+  - {fileID: 710439139}
+  - {fileID: 455986780}
   m_Father: {fileID: 1672624928}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1400865117
@@ -2688,6 +3631,60 @@ Transform:
   - {fileID: 744745364}
   m_Father: {fileID: 389672877}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1411660488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1411660489}
+  - component: {fileID: 1411660490}
+  m_Layer: 0
+  m_Name: Dialog61
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1411660489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411660488}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1119723461}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1411660490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411660488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Vous pr\xE9parez un pi\xE8ge habile, esp\xE9rant capturer l'ancien
+    employ\xE9 \xE0 son retour. Mais, comme si anticipant vos intentions, il aper\xE7oit
+    votre man\xE8ge et s'enfuit, disparaissant dans les ombres de Bikini Bottom."
+  TextNameCharacter: 
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 1
 --- !u!1 &1416642916
 GameObject:
   m_ObjectHideFlags: 0
@@ -2767,7 +3764,7 @@ GameObject:
   - component: {fileID: 1441593101}
   - component: {fileID: 1441593100}
   m_Layer: 0
-  m_Name: Dialog31
+  m_Name: Dialog30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2790,6 +3787,7 @@ MonoBehaviour:
     Krabs et un plan de revanche sophistiqu\xE9 impliquant une nouvelle invention."
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: Acuser Plankton
   Choix2: Ne pas l'acuser
   affiche_choix: 1
@@ -2856,7 +3854,61 @@ MonoBehaviour:
   TextDialog: "Oh, \xE7a ? Juste une liste de courses. Karen me rappelle sans cesse
     de ne pas oublier le sel. Qu'est-ce qui vous am\xE8ne ?"
   TextNameCharacter: PLankton
-  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 2cd916e4c821de747a5eb9b1f0aaf921, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 0
+--- !u!1 &1517933771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1517933772}
+  - component: {fileID: 1517933773}
+  m_Layer: 0
+  m_Name: Dialog55
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1517933772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517933771}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 455986780}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1517933773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517933771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "C'est bien possible. Il connaissait le Crabe Croustillant comme sa
+    poche. Mais soyez prudent, ce type est impr\xE9visible."
+  TextNameCharacter: M.Krab
+  SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2909,6 +3961,7 @@ MonoBehaviour:
     compte plus que mes doutes. Je suis avec vous, voyons ce que nous pouvons faire."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2961,6 +4014,7 @@ MonoBehaviour:
     Que faisais-tu avec ce papier ?"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -3014,6 +4068,7 @@ MonoBehaviour:
     mon \xE9paule..."
   TextNameCharacter: M.Krab
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -3066,6 +4121,7 @@ MonoBehaviour:
     est entrouvert ! Pourtant, pas un seul centime n'a \xE9t\xE9 vol\xE9."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -3118,10 +4174,64 @@ MonoBehaviour:
     temps \xE0 perdre. Venez, nous avons une recette \xE0 retrouver !"
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
   narration: 0
+--- !u!1 &1608405051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1608405052}
+  - component: {fileID: 1608405053}
+  m_Layer: 0
+  m_Name: Dialog64
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1608405052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608405051}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2035737170}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1608405053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608405051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Avec la recette en main, vous sortez de la maison, un sourire de victoire
+    sur les l\xE8vres. Peut \xEAtre est-ce le moment de l'accuser ?"
+  TextNameCharacter: 
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 1
 --- !u!1 &1611789860
 GameObject:
   m_ObjectHideFlags: 0
@@ -3303,10 +4413,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1400865118}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -691.90533, y: -217.99533}
-  m_SizeDelta: {x: 644.0092, y: 644.0092}
+  m_SizeDelta: {x: 544.0092, y: 544.0092}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1732954244
 MonoBehaviour:
@@ -3379,6 +4489,7 @@ MonoBehaviour:
     a \xE9t\xE9 prise ici, il doit y avoir des indices."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -3446,6 +4557,7 @@ MonoBehaviour:
     sur vous. Suivez moi !"
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -3498,10 +4610,65 @@ MonoBehaviour:
     suis pas fait pour ce genre de travail. Je vais partir."
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
   narration: 0
+--- !u!1 &1786582583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1786582584}
+  - component: {fileID: 1786582585}
+  m_Layer: 0
+  m_Name: Dialog48
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1786582584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786582583}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 961398780}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1786582585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786582583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Vous pr\xE9parez un pi\xE8ge habile, esp\xE9rant capturer l'ancien
+    employ\xE9 \xE0 son retour. Mais, comme si anticipant vos intentions, il aper\xE7oit
+    votre man\xE8ge et s'enfuit, disparaissant dans les ombres de Bikini Bottom."
+  TextNameCharacter: 
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 1
 --- !u!1 &1852623728
 GameObject:
   m_ObjectHideFlags: 0
@@ -3684,6 +4851,7 @@ MonoBehaviour:
     jeter un coup d'\u0153il autour de ton labo."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -3764,6 +4932,113 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878374727}
   m_CullTransparentMesh: 1
+--- !u!1 &1938375114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1938375115}
+  - component: {fileID: 1938375116}
+  m_Layer: 0
+  m_Name: Dialog54
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1938375115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938375114}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 455986780}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1938375116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938375114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Pensez-vous qu'il puisse \xEAtre derri\xE8re le vol de la recette
+    ?"
+  TextNameCharacter: Bob
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 0
+--- !u!1 &1939498119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1939498120}
+  - component: {fileID: 1939498121}
+  m_Layer: 0
+  m_Name: Dialog50
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1939498120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939498119}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 974150487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1939498121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939498119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Vous entrez discr\xE8tement, mais vous trouvez rapidement des documents
+    d\xE9chir\xE9s, signe que l'ancien employ\xE9 a anticip\xE9 votre visite et s'est
+    d\xE9barrass\xE9 de toute preuve."
+  TextNameCharacter: 
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 1
 --- !u!1 &1939655756
 GameObject:
   m_ObjectHideFlags: 0
@@ -3842,7 +5117,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: "Allez-y, mais ne touchez \xE0 rien ! Et rappelez-vous, je suis innocent."
   TextNameCharacter: Plankton
-  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteCharacter: {fileID: 21300000, guid: 2cd916e4c821de747a5eb9b1f0aaf921, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -3939,6 +5215,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1965973887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1965973888}
+  - component: {fileID: 1965973889}
+  m_Layer: 0
+  m_Name: Dialog53
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1965973888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965973887}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 455986780}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1965973889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965973887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Ah, cet gaillard \xE9tait un cas difficile. Pas facile \xE0 g\xE9rer,
+    toujours en train de grincer des dents. Il \xE9tait dangereux, je vous le dis.
+    Le jour o\xF9 je l'ai renvoy\xE9, il a jur\xE9 de se venger."
+  TextNameCharacter: M.Krab
+  SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 0
 --- !u!1 &1971758406
 GameObject:
   m_ObjectHideFlags: 0
@@ -3986,6 +5316,7 @@ MonoBehaviour:
   TextDialog: Merci de nous laisser faire, Plankton. Nous serons rapides.
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4039,10 +5370,170 @@ MonoBehaviour:
     la v\xE9rit\xE9."
   TextNameCharacter: M. Krab
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: Discuter avec Plankton
   Choix2: Accuser Plankton
   affiche_choix: 1
   narration: 1
+--- !u!1 &1995921384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1995921386}
+  - component: {fileID: 1995921385}
+  m_Layer: 0
+  m_Name: Dialog59
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1995921385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995921384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Devant la demeure d\xE9labr\xE9e de l'ancien employ\xE9, vous r\xE9fl\xE9chissez
+    \xE0 votre prochaine action."
+  TextNameCharacter: 
+  SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: Fouiller la maison
+  Choix2: "Tendre un pi\xE8ge"
+  affiche_choix: 1
+  narration: 1
+--- !u!4 &1995921386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995921384}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 455986780}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2000537681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2000537682}
+  - component: {fileID: 2000537683}
+  m_Layer: 0
+  m_Name: Dialog51
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2000537682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000537681}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 974150487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2000537683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000537681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "La maison est vide de tout indice utile. La recette de M. Krabs reste
+    introuvable, et le coupable a effac\xE9 ses traces. Une occasion manqu\xE9e."
+  TextNameCharacter: 
+  SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 1
+--- !u!1 &2015348699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2015348700}
+  - component: {fileID: 2015348701}
+  m_Layer: 0
+  m_Name: Dialog57
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2015348700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015348699}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 455986780}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2015348701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015348699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextDialog: "Si vous croyez que c'est n\xE9cessaire... Mais faites attention. On
+    ne sait jamais ce qu'un homme d\xE9sesp\xE9r\xE9 peut faire."
+  TextNameCharacter: M.Krab
+  SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
+  Choix1: 
+  Choix2: 
+  affiche_choix: 0
+  narration: 0
 --- !u!1 &2023946042
 GameObject:
   m_ObjectHideFlags: 0
@@ -4091,10 +5582,45 @@ MonoBehaviour:
     qui savait ce qu'il cherchait. Peut-\xEAtre un ancien employ\xE9 ?"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
   narration: 0
+--- !u!1 &2035737169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2035737170}
+  m_Layer: 0
+  m_Name: fouille
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2035737170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035737169}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 44783208}
+  - {fileID: 817878276}
+  - {fileID: 1608405052}
+  m_Father: {fileID: 455986780}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2043807126
 GameObject:
   m_ObjectHideFlags: 0
@@ -4177,6 +5703,7 @@ MonoBehaviour:
     M. Krabs maintenant !
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4229,6 +5756,7 @@ MonoBehaviour:
     que je dois respecter votre d\xE9cision. Au revoir."
   TextNameCharacter: M Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4281,6 +5809,7 @@ MonoBehaviour:
     Il semblait tr\xE8s content de lui."
   TextNameCharacter: Client
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
+  SpriteBackground: {fileID: 0}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4317,6 +5846,7 @@ MonoBehaviour:
   TextDialog: {fileID: 493683512}
   TextCharacterName: {fileID: 633082617}
   ImageCharacter: {fileID: 1732954244}
+  ImageBackground: {fileID: 1614038191}
   Dialog:
   - {fileID: 1386303932}
   - {fileID: 926227849}
@@ -4347,8 +5877,8 @@ MonoBehaviour:
   - {fileID: 803775374}
   - {fileID: 1971758408}
   - {fileID: 1947220402}
-  - {fileID: 920097379}
   - {fileID: 1441593100}
+  - {fileID: 920097379}
   - {fileID: 939448291}
   - {fileID: 1754278013}
   - {fileID: 841119062}
@@ -4358,6 +5888,30 @@ MonoBehaviour:
   - {fileID: 2023946044}
   - {fileID: 1035624908}
   - {fileID: 400491230}
+  - {fileID: 58478034}
+  - {fileID: 401395039}
+  - {fileID: 585372326}
+  - {fileID: 1235390163}
+  - {fileID: 247489629}
+  - {fileID: 1116645016}
+  - {fileID: 1344844981}
+  - {fileID: 1786582585}
+  - {fileID: 603353147}
+  - {fileID: 1939498121}
+  - {fileID: 2000537683}
+  - {fileID: 258383090}
+  - {fileID: 1965973889}
+  - {fileID: 1938375116}
+  - {fileID: 1517933773}
+  - {fileID: 385718765}
+  - {fileID: 2015348701}
+  - {fileID: 86347659}
+  - {fileID: 1995921385}
+  - {fileID: 444459652}
+  - {fileID: 1411660490}
+  - {fileID: 44783209}
+  - {fileID: 817878277}
+  - {fileID: 1608405053}
   s_sequenceNumber: 0
   choix1: {fileID: 1167697598}
   choix2: {fileID: 433169298}
