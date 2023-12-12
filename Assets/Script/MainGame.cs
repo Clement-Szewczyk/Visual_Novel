@@ -9,6 +9,8 @@ public class MainGame : MonoBehaviour
 {
     public TMP_Text TextDialog;
     public TMP_Text TextCharacterName;
+    
+    public Image ImageName;
     public Image ImageCharacter;
     public Image ImageBackground;
     public DialogueSequence[] Dialog;
@@ -296,6 +298,13 @@ public class MainGame : MonoBehaviour
 
         if(s_sequenceNumber == 31){
             Plankton = true;
+            if(choix == 2 ){// rien
+            
+            }
+            else if(choix == 1){
+               s_sequenceNumber = 32;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]); 
+            }
         }
 
         if (s_sequenceNumber == 39){
@@ -368,12 +377,14 @@ public class MainGame : MonoBehaviour
             Debug.Log("narration");
             ImageCharacter.gameObject.SetActive(false);
             TextCharacterName.gameObject.SetActive(false);
+            ImageName.gameObject.SetActive(false);
             
         }
         else{
             Debug.Log("pas narration");
             ImageCharacter.gameObject.SetActive(true);
             TextCharacterName.gameObject.SetActive(true);
+            ImageName.gameObject.SetActive(true);
 
         }
     }

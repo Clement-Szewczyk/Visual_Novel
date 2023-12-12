@@ -156,7 +156,7 @@ MonoBehaviour:
     ! On doit le suivre avant qu'il ne disparaisse dans son trou \xE0 rat !"
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -224,7 +224,7 @@ MonoBehaviour:
     la recette aurait pu dispara\xEEtre : mon bureau ou salle des clients."
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: Examiner le Bureau
   Choix2: Examiner la salle des clients
   affiche_choix: 1
@@ -276,7 +276,7 @@ MonoBehaviour:
   TextDialog: "Cherchons discr\xE8tement. Il doit y avoir quelque chose ici."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 7dce4c0203e6dfe42b4d133ee3912eba, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -314,7 +314,7 @@ MonoBehaviour:
     confrontation.
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -435,7 +435,7 @@ MonoBehaviour:
     avec quelque chose dans la main."
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -472,7 +472,7 @@ MonoBehaviour:
   TextDialog: D'accord, Plankton. Nous ne fouillerons pas sans ton accord
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -541,7 +541,7 @@ MonoBehaviour:
     chez lui !"
   TextNameCharacter: 
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 7dce4c0203e6dfe42b4d133ee3912eba, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -629,7 +629,7 @@ MonoBehaviour:
     \xE9tait-il ?"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -693,15 +693,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Suivant
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5dee8caa09b412b4bb74c2790db1d6f5, type: 2}
+  m_sharedMaterial: {fileID: -2184744216139171837, guid: 5dee8caa09b412b4bb74c2790db1d6f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -718,8 +718,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -864,15 +864,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Choix 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5dee8caa09b412b4bb74c2790db1d6f5, type: 2}
+  m_sharedMaterial: {fileID: -2184744216139171837, guid: 5dee8caa09b412b4bb74c2790db1d6f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -889,8 +889,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -987,7 +987,7 @@ MonoBehaviour:
     donner plus d'indices."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -1064,7 +1064,7 @@ MonoBehaviour:
     se dessiner."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: Confornter le coupable
   Choix2: "Continuer l'enqu\xEAte dans le bureau"
   affiche_choix: 1
@@ -1132,7 +1132,7 @@ MonoBehaviour:
     non loin, l'air nerveux mais essayant de se fondre dans la foule."
   TextNameCharacter: 
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -1220,8 +1220,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4c8a4bf1f41f6f24c9a2525747d0c2b1, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1255,8 +1255,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 179, y: -444}
-  m_SizeDelta: {x: 259.9135, y: 48.7338}
+  m_AnchoredPosition: {x: 172.1, y: -436.1}
+  m_SizeDelta: {x: 345, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &444459650
 GameObject:
@@ -1359,7 +1359,7 @@ MonoBehaviour:
     !"
   TextNameCharacter: Plankton
   SpriteCharacter: {fileID: 21300000, guid: 2cd916e4c821de747a5eb9b1f0aaf921, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: Respecte le choix
   Choix2: Force la fouille
   affiche_choix: 1
@@ -1497,15 +1497,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5dee8caa09b412b4bb74c2790db1d6f5, type: 2}
+  m_sharedMaterial: {fileID: -2184744216139171837, guid: 5dee8caa09b412b4bb74c2790db1d6f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1621,7 +1621,7 @@ MonoBehaviour:
     que lorsque vous serez pr\xEAts \xE0 m'aider !"
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: Refuser d'aider
   Choix2: "Aider quand m\xEAme"
   affiche_choix: 1
@@ -1674,7 +1674,7 @@ MonoBehaviour:
     d'avouer.
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 7dce4c0203e6dfe42b4d133ee3912eba, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -1726,7 +1726,7 @@ MonoBehaviour:
   TextDialog: "Il vaut mieux fouiller la maison, mais il faut \xEAtre rapide."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 7dce4c0203e6dfe42b4d133ee3912eba, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -1761,11 +1761,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1400865118}
+  m_Father: {fileID: 783477619}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 113, y: -15}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &633082616
@@ -1798,8 +1798,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5dee8caa09b412b4bb74c2790db1d6f5, type: 2}
+  m_sharedMaterial: {fileID: -2184744216139171837, guid: 5dee8caa09b412b4bb74c2790db1d6f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1913,7 +1913,7 @@ MonoBehaviour:
     voyez si les clients ont remarqu\xE9 autre chose."
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -1966,7 +1966,7 @@ MonoBehaviour:
     jeter un coup d'\u0153il autour de ton labo."
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2066,8 +2066,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 892ce3f33a00e0f48b717957084d0794, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2101,8 +2101,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 749, y: -444}
-  m_SizeDelta: {x: 259.9135, y: 48.7338}
+  m_AnchoredPosition: {x: 726.3601, y: -431.5}
+  m_SizeDelta: {x: 345, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &710439138
 GameObject:
@@ -2190,7 +2190,7 @@ MonoBehaviour:
   TextDialog: "D\xE9sol\xE9, Plankton. Je dois v\xE9rifier chaque possibilit\xE9."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2228,7 +2228,7 @@ MonoBehaviour:
     !"
   TextNameCharacter: Plankton
   SpriteCharacter: {fileID: 21300000, guid: 2cd916e4c821de747a5eb9b1f0aaf921, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2400,11 +2400,87 @@ MonoBehaviour:
     pris du tout ! Vous ne trouverez rien ici."
   TextNameCharacter: Plankton
   SpriteCharacter: {fileID: 21300000, guid: 2cd916e4c821de747a5eb9b1f0aaf921, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
   narration: 0
+--- !u!1 &783477618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 783477619}
+  - component: {fileID: 783477621}
+  - component: {fileID: 783477620}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &783477619
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783477618}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 633082615}
+  m_Father: {fileID: 1400865118}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 132.5, y: -0.00002670288}
+  m_SizeDelta: {x: 104.1859, y: -21.355}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &783477620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783477618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8679245, g: 0.8392666, b: 0.8392666, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7109ae06e44efd843a5304380aab66d6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &783477621
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783477618}
+  m_CullTransparentMesh: 1
 --- !u!1 &803775373
 GameObject:
   m_ObjectHideFlags: 0
@@ -2438,7 +2514,7 @@ MonoBehaviour:
     rien ici, sauf peut-\xEAtre quelques inventions rat\xE9es."
   TextNameCharacter: PLankton
   SpriteCharacter: {fileID: 21300000, guid: 2cd916e4c821de747a5eb9b1f0aaf921, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: Fouiller le Labo
   Choix2: Ne pas fouiller le labo
   affiche_choix: 1
@@ -2507,7 +2583,7 @@ MonoBehaviour:
     de M. Krabs !"
   TextNameCharacter: 
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 7dce4c0203e6dfe42b4d133ee3912eba, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2599,7 +2675,7 @@ MonoBehaviour:
     la pi\xE8ce, vous remarquez.."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2652,7 +2728,7 @@ MonoBehaviour:
     gard\xE9e ici ?"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2689,7 +2765,7 @@ MonoBehaviour:
   TextDialog: "J'ai chang\xE9 d'avis, pardonne moi Plankton"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2757,7 +2833,7 @@ MonoBehaviour:
     ? Peut-\xEAtre que vous l'avez juste \xE9gar\xE9e..."
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2810,7 +2886,7 @@ MonoBehaviour:
     ?"
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -2894,8 +2970,8 @@ MonoBehaviour:
   TextDialog: Vous retournez au Krusty Krab
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
-  Choix1: "Continuer l'enqu\xEAte dans le bureay"
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
+  Choix1: "Continuer l'enqu\xEAte dans le bureau"
   Choix2: Quitter le jeu
   affiche_choix: 1
   narration: 1
@@ -3049,7 +3125,7 @@ MonoBehaviour:
     il \xE9tait particuli\xE8rement rancunier."
   TextNameCharacter: M.Krab
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -3176,8 +3252,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 749, y: -444}
-  m_SizeDelta: {x: 259.9135, y: 48.7338}
+  m_AnchoredPosition: {x: 726.3601, y: -436.1}
+  m_SizeDelta: {x: 345, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1167697600
 MonoBehaviour:
@@ -3243,8 +3319,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 839dd4e47d6f6764f8f2ae9dda996df7, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3325,7 +3401,7 @@ MonoBehaviour:
   TextDialog: Je... je ne sais pas de quoi vous parlez ! Laissez-moi tranquille !
   TextNameCharacter: Carlos
   SpriteCharacter: {fileID: 21300000, guid: d7afffa7729dacf4e813fcd08e10ae32, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 7dce4c0203e6dfe42b4d133ee3912eba, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -3430,7 +3506,7 @@ MonoBehaviour:
     tout de suite et retrouver votre recette !"
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -3498,7 +3574,7 @@ MonoBehaviour:
     et sans elle, le Crabe Croustillant est fini !"
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: "Aider M. Krabs imm\xE9diatement."
   Choix2: Exprimer des doutes.
   affiche_choix: 1
@@ -3578,7 +3654,7 @@ RectTransform:
   - {fileID: 1167697599}
   - {fileID: 702732888}
   - {fileID: 433169302}
-  - {fileID: 633082615}
+  - {fileID: 783477619}
   m_Father: {fileID: 748777478}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3787,7 +3863,7 @@ MonoBehaviour:
     Krabs et un plan de revanche sophistiqu\xE9 impliquant une nouvelle invention."
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: Acuser Plankton
   Choix2: Ne pas l'acuser
   affiche_choix: 1
@@ -3855,7 +3931,7 @@ MonoBehaviour:
     de ne pas oublier le sel. Qu'est-ce qui vous am\xE8ne ?"
   TextNameCharacter: PLankton
   SpriteCharacter: {fileID: 21300000, guid: 2cd916e4c821de747a5eb9b1f0aaf921, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -3908,7 +3984,7 @@ MonoBehaviour:
     poche. Mais soyez prudent, ce type est impr\xE9visible."
   TextNameCharacter: M.Krab
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -3961,7 +4037,7 @@ MonoBehaviour:
     compte plus que mes doutes. Je suis avec vous, voyons ce que nous pouvons faire."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4014,7 +4090,7 @@ MonoBehaviour:
     Que faisais-tu avec ce papier ?"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4068,7 +4144,7 @@ MonoBehaviour:
     mon \xE9paule..."
   TextNameCharacter: M.Krab
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4121,7 +4197,7 @@ MonoBehaviour:
     est entrouvert ! Pourtant, pas un seul centime n'a \xE9t\xE9 vol\xE9."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4174,7 +4250,7 @@ MonoBehaviour:
     temps \xE0 perdre. Venez, nous avons une recette \xE0 retrouver !"
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4227,7 +4303,7 @@ MonoBehaviour:
     sur les l\xE8vres. Peut \xEAtre est-ce le moment de l'accuser ?"
   TextNameCharacter: 
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 7dce4c0203e6dfe42b4d133ee3912eba, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4489,7 +4565,7 @@ MonoBehaviour:
     a \xE9t\xE9 prise ici, il doit y avoir des indices."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4557,7 +4633,7 @@ MonoBehaviour:
     sur vous. Suivez moi !"
   TextNameCharacter: M. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4610,7 +4686,7 @@ MonoBehaviour:
     suis pas fait pour ce genre de travail. Je vais partir."
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4728,15 +4804,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Choix 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5dee8caa09b412b4bb74c2790db1d6f5, type: 2}
+  m_sharedMaterial: {fileID: -2184744216139171837, guid: 5dee8caa09b412b4bb74c2790db1d6f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4753,8 +4829,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4851,7 +4927,7 @@ MonoBehaviour:
     jeter un coup d'\u0153il autour de ton labo."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -4907,15 +4983,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8666667, g: 0.8392157, b: 0.8392157, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ba1cd22327633e74d990825ec82be512, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 2f9a76ca2b0f77c49a3a000af22e95e7, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4980,7 +5056,7 @@ MonoBehaviour:
     ?"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -5034,7 +5110,7 @@ MonoBehaviour:
     d\xE9barrass\xE9 de toute preuve."
   TextNameCharacter: 
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 7dce4c0203e6dfe42b4d133ee3912eba, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -5118,7 +5194,7 @@ MonoBehaviour:
   TextDialog: "Allez-y, mais ne touchez \xE0 rien ! Et rappelez-vous, je suis innocent."
   TextNameCharacter: Plankton
   SpriteCharacter: {fileID: 21300000, guid: 2cd916e4c821de747a5eb9b1f0aaf921, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -5264,7 +5340,7 @@ MonoBehaviour:
     Le jour o\xF9 je l'ai renvoy\xE9, il a jur\xE9 de se venger."
   TextNameCharacter: M.Krab
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -5316,7 +5392,7 @@ MonoBehaviour:
   TextDialog: Merci de nous laisser faire, Plankton. Nous serons rapides.
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -5370,7 +5446,7 @@ MonoBehaviour:
     la v\xE9rit\xE9."
   TextNameCharacter: M. Krab
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: Discuter avec Plankton
   Choix2: Accuser Plankton
   affiche_choix: 1
@@ -5476,7 +5552,7 @@ MonoBehaviour:
     introuvable, et le coupable a effac\xE9 ses traces. Une occasion manqu\xE9e."
   TextNameCharacter: 
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 7dce4c0203e6dfe42b4d133ee3912eba, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -5529,7 +5605,7 @@ MonoBehaviour:
     ne sait jamais ce qu'un homme d\xE9sesp\xE9r\xE9 peut faire."
   TextNameCharacter: M.Krab
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -5582,7 +5658,7 @@ MonoBehaviour:
     qui savait ce qu'il cherchait. Peut-\xEAtre un ancien employ\xE9 ?"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -5703,7 +5779,7 @@ MonoBehaviour:
     M. Krabs maintenant !
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -5756,7 +5832,7 @@ MonoBehaviour:
     que je dois respecter votre d\xE9cision. Au revoir."
   TextNameCharacter: M Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -5809,7 +5885,7 @@ MonoBehaviour:
     Il semblait tr\xE8s content de lui."
   TextNameCharacter: Client
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
-  SpriteBackground: {fileID: 0}
+  SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
   Choix2: 
   affiche_choix: 0
@@ -5845,6 +5921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: {fileID: 493683512}
   TextCharacterName: {fileID: 633082617}
+  ImageName: {fileID: 783477620}
   ImageCharacter: {fileID: 1732954244}
   ImageBackground: {fileID: 1614038191}
   Dialog:
