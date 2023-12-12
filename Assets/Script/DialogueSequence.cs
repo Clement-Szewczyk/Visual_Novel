@@ -11,5 +11,6 @@ public class DialogueSequence : MonoBehaviour
     public string Choix2;
 
     public bool affiche_choix = false;
+    public bool narration = false;
 
 }

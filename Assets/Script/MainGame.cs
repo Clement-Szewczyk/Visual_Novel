@@ -27,16 +27,17 @@ public class MainGame : MonoBehaviour
 
     private int Fin1 = 0;
 
+    
+
     void Start()
     {   
-        choix =0;
-        Debug.Log("numéro de la séquence : " + s_sequenceNumber);
         HideButon();
         UpdateDialogSequence(Dialog[0]);
         choix1.GetComponent<Button>().onClick.AddListener(Bouton1);
         choix2.GetComponent<Button>().onClick.AddListener(Bouton2);
         buttonNext.GetComponent<Button>().onClick.AddListener(Next);
         Story();
+        Dialog[s_sequenceNumber].narration = false;
         
     }
 
@@ -59,19 +60,26 @@ public class MainGame : MonoBehaviour
     }
 
     void Update()
-    {
+    {   
+        choix1.GetComponent<Button>().onClick.AddListener(Bouton1);
+        choix2.GetComponent<Button>().onClick.AddListener(Bouton2);
+        buttonNext.GetComponent<Button>().onClick.AddListener(Next);
         if (Input.GetKeyDown(KeyCode.Space))
         {
             affichage_text();
         }
         button();
         Debug.Log("numéro de la séquence : " + s_sequenceNumber);
-        
+        Debug.Log("narration : " + Dialog[s_sequenceNumber].narration);
+
+        narration();
         
     }
 
     void UpdateDialogSequence(DialogueSequence sequence)
-    {
+    {   
+        
+        Debug.Log("TEST");
         //StartCoroutine(TypeText(sequence.TextDialog));
         TextDialog.text = sequence.TextDialog;
         TextCharacterName.text = sequence.TextNameCharacter;
@@ -160,6 +168,7 @@ public class MainGame : MonoBehaviour
 
 
     public void Story(){
+        
         if(s_sequenceNumber == 0){
             if(choix == 2){ // refuser
                 s_sequenceNumber = 1;
@@ -195,49 +204,55 @@ public class MainGame : MonoBehaviour
         }
         if(s_sequenceNumber == 9){
             if(choix == 1){ //Bureau
-
+                s_sequenceNumber = 32;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
             }else if(choix == 2){ //Salle des clients
                 s_sequenceNumber = 10;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
             }
         }
         if(s_sequenceNumber == 15){
             if(choix == 1){ // Dicussion
                 s_sequenceNumber = 23;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
 
             }
             else if(choix == 2){// Accusation
                 s_sequenceNumber = 16;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
 
             }
         }
+
 
         if(s_sequenceNumber == 19){
-            if(choix == 1){// Respecter le choix
+            if(choix == 1){// Fouille
                 s_sequenceNumber = 22;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
             }
-            else if(choix==2){// Ne pas respecter le choix
+            else if(choix==2){// Ne pas fouiller
                 s_sequenceNumber = 20;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
             }
         }
+
         if(s_sequenceNumber == 21){
             if(choix == 3){
                 fin1();
             }
         }
 
-        if(s_sequenceNumber == 19){
-            if(choix == 1){// Fouille
-                s_sequenceNumber = 22;
+        if(s_sequenceNumber == 22){
+            if(choix == 3){
+                s_sequenceNumber = 31;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
-            }
-            else if(choix==2){// Ne pas fouiller
-                s_sequenceNumber = 20;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
             }
         }
 
@@ -245,16 +260,61 @@ public class MainGame : MonoBehaviour
             if(choix == 1){// Fouille
                 s_sequenceNumber = 27;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
             }
             else if(choix==2){// Ne pas fouiller
                 s_sequenceNumber = 29;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
+            }
+        }
+
+        if(s_sequenceNumber == 28){
+            if(choix == 3){
+                s_sequenceNumber = 30;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
+            }
+        }
+
+        if(s_sequenceNumber == 29){
+            if(choix == 3){
+                s_sequenceNumber = 30;
+                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                choix = 0;
+            }
+        }
+
+       if(s_sequenceNumber == 30){
+            if(choix == 1){// Acusation 
+                fin1();
+            }
+            else if(choix==2){// Ne pas fouiller
+                s_sequenceNumber = 31;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
             }
         }
 
         
+
         
         
+    }
+
+
+    public void narration(){
+        if(Dialog[s_sequenceNumber].narration == true){
+            Debug.Log("narration");
+            ImageCharacter.gameObject.SetActive(false);
+            TextCharacterName.gameObject.SetActive(false);
+            
+        }
+        else{
+            Debug.Log("pas narration");
+            ImageCharacter.gameObject.SetActive(true);
+            TextCharacterName.gameObject.SetActive(true);
+
+        }
     }
 
     public void fin1(){
