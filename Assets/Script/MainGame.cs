@@ -24,13 +24,15 @@ public class MainGame : MonoBehaviour
    public GameObject Game;
    public GameObject End;
 
+   public GameObject Victoire;
+
     private bool isTyping = false;
 
     private int choix = 0;
 
     private int Fin1 = 0;
 
-    private bool Plankton;
+    private bool victoire = true;
     
 
     void Start()
@@ -41,7 +43,7 @@ public class MainGame : MonoBehaviour
         // On ajoute un listener sur les boutons
         choix1.GetComponent<Button>().onClick.AddListener(Bouton1);
         choix2.GetComponent<Button>().onClick.AddListener(Bouton2);
-        buttonNext.GetComponent<Button>().onClick.AddListener(Next);
+        //buttonNext.GetComponent<Button>().onClick.AddListener(Next);
         // On appelle la fonction Story pour gérer les choix
         Story();
         // On met la narration à false
@@ -143,9 +145,60 @@ public class MainGame : MonoBehaviour
     // On gère le bouton next
     public void OnClickNextDialog()
     {   
-        Debug.Log("JE PASSSSE");
-        Story();
-        Debug.Log("J'ai pas fait la STORYYYYYYYY");
+        if(s_sequenceNumber == 4){
+            s_sequenceNumber = 9-1;
+            UpdateDialogSequence(Dialog[s_sequenceNumber]);            
+        }
+        if(s_sequenceNumber == 21){
+            victoire = false;
+            s_sequenceNumber = 64-1; //TODO : Pas d'affichage des personnages
+            UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            choix = 0;
+            
+        }
+
+        if(s_sequenceNumber == 22){
+            s_sequenceNumber = 66-1; //TODO : Pas d'affichage des personnages
+            UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            choix = 0;
+        }
+
+        if(s_sequenceNumber == 65){
+            s_sequenceNumber = 33-1; //TODO : Pas d'affichage des personnages
+            UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            choix = 0;
+        }
+        if(s_sequenceNumber == 47){
+            fin1();
+            return;
+            
+        }
+
+        if(s_sequenceNumber == 50){
+            Debug.Log("fin");
+            fin1();
+            return;
+        }
+
+        if(s_sequenceNumber == 60){
+            fin1();
+            return;
+        }
+
+        if(s_sequenceNumber == 63){
+            if(victoire == true){
+                //victoire
+                Debug.Log("Victoire");
+                _Victoire();
+                return;
+            }
+        }
+
+        if(s_sequenceNumber == 64){
+            fin1();
+            return;
+        }
+
         affichage_text();
         if (isTyping)
         {
@@ -225,15 +278,7 @@ public class MainGame : MonoBehaviour
                 choix = 0;
             }
         }
-        if(s_sequenceNumber == 4){
-            if(choix == 3){ 
-                Debug.Log("8");
-                s_sequenceNumber = 8;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
-                choix = 0;
-            }
-            
-        }
+        
         if(s_sequenceNumber == 9){
             if(choix == 1){ //Bureau
                 s_sequenceNumber = 32;
@@ -274,23 +319,9 @@ public class MainGame : MonoBehaviour
             }
         }
 
-        if(s_sequenceNumber == 21){
-            if(choix == 3){
-                s_sequenceNumber = 64;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
-            }
-        }
+        
 
-        if(s_sequenceNumber == 22){
-            Debug.Log("Je suis au 22 donc dialogue 23");
-            Debug.Log("choix : " + choix);
-            if(choix == 3){
-                Debug.Log("Je vais au 64 donc dialogue 65");
-                s_sequenceNumber = 64;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
-
-            }
-        }
+        
     
 
         if(s_sequenceNumber == 26){
@@ -299,7 +330,7 @@ public class MainGame : MonoBehaviour
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
                 choix = 0;
             }
-            else if(choix==2){// Ne pas fouiller /// TODO
+            else if(choix==2){// 
                 s_sequenceNumber = 30;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
                 choix = 0;
@@ -318,7 +349,7 @@ public class MainGame : MonoBehaviour
             }
         }
 
-        if(s_sequenceNumber == 30){
+        /*if(s_sequenceNumber == 30){
             if(choix == 1){// Acusation 
                 fin1();
             }
@@ -326,15 +357,14 @@ public class MainGame : MonoBehaviour
                 s_sequenceNumber = 31;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
             }
-        }
+        }*/
 
         if(s_sequenceNumber == 31){
-            Plankton = true;
-            if(choix == 2 ){// rien
-            
+            if(choix == 2 ){// Quitter
+                Application.Quit();
             }
-            else if(choix == 1){
-               s_sequenceNumber = 32;
+            else if(choix == 1){// retour bureau
+                s_sequenceNumber = 32;
                 UpdateDialogSequence(Dialog[s_sequenceNumber]); 
             }
         }
@@ -360,18 +390,9 @@ public class MainGame : MonoBehaviour
                 UpdateDialogSequence(Dialog[s_sequenceNumber]);
             }
         }
-        if(s_sequenceNumber == 47){
-            if(choix == 3){//Fin
-                fin1();
-            }
-            
-        }
+        
 
-        if(s_sequenceNumber == 50){
-            if(choix == 3){//Fin
-                fin1();
-            }
-        }
+        
         
         if(s_sequenceNumber == 58){
             if(choix == 1){//Fouille la maison
@@ -385,21 +406,7 @@ public class MainGame : MonoBehaviour
             }
         }
 
-        if(s_sequenceNumber == 60){
-            if(choix == 3){//Fin
-                fin1();
-            }
-        }
-
-        if(s_sequenceNumber == 63){
-            if(choix == 3){//Fin
-                fin1();
-            }
-        }
-
-        if(s_sequenceNumber == 64){
-            fin1();
-        }
+        
  
     }
 
@@ -423,14 +430,18 @@ public class MainGame : MonoBehaviour
 
     // On gère la fin
     public void fin1(){
+            Debug.Log("fin1");
             Game.SetActive(false);
             End.SetActive(true);
         
 
     }
 
-
-
+    public void _Victoire(){
+        Debug.Log("victoire");
+        Game.SetActive(false);
+        Victoire.SetActive(true);
+    }
 
 
     
