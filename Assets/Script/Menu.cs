@@ -35,6 +35,9 @@ public class Menu : MonoBehaviour
         
     }
 
+    public void OnclickExit(){
+        Application.Quit();
+    }
 
     private void FadeComplete(){
         SceneManager.LoadScene("Game");

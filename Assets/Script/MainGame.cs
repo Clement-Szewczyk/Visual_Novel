@@ -62,7 +62,8 @@ public class MainGame : MonoBehaviour
         // On appelle la fonction Story pour gérer les choix
         Story();
         // On met la narration à false
-        Dialog[s_sequenceNumber].narration = false;
+        
+        GetDialogueSequence().narration = false;
     }
 
     // Quand on clique sur le bouton 1
@@ -76,6 +77,19 @@ public class MainGame : MonoBehaviour
         choix = 2;
         Story();
     }
+
+    private DialogueSequence GetDialogueSequence()
+{
+    if (s_sequenceNumber >= 0 && s_sequenceNumber < Dialog.Length)
+    {
+        return Dialog[s_sequenceNumber];    }
+    else
+    {
+        // Gérer la situation d'erreur ou retourner une valeur par défaut
+        return null;
+    }
+}
+
 
     // Quand on clique sur le bouton next
     void Next(){
@@ -121,7 +135,13 @@ public class MainGame : MonoBehaviour
         Debug.Log("Choix " + choix);
         //StartCoroutine(TypeText(sequence.TextDialog));
         // On met à jour les éléments du dialogue
-        TextDialog.text = sequence.TextDialog;
+        //TextDialog.text = sequence.TextDialog;
+
+    // Arrêtez toutes les coroutines en cours avant de commencer une nouvelle
+     StopAllCoroutines();
+
+
+        StartCoroutine(TypeText(sequence.TextDialog));
         TextCharacterName.text = sequence.TextNameCharacter;
         ImageCharacter.sprite = sequence.SpriteCharacter;
         ImageBackground.sprite = sequence.SpriteBackground;
@@ -136,7 +156,7 @@ public class MainGame : MonoBehaviour
         isTyping = true;
         TextDialog.text = "";
 
-        float typingSpeed = 0.05f; // Ajustez cette valeur pour contrôler la vitesse de dactylographie
+        float typingSpeed = 0.018f; // Ajustez cette valeur pour contrôler la vitesse de dactylographie
 
         foreach (char letter in text)
         {
@@ -151,8 +171,8 @@ public class MainGame : MonoBehaviour
     // On affiche tout le texte
     public void affichage_text(){
         // Si le texte est encore en train de s'afficher, affiche immédiatement tout le texte.
-        //StopAllCoroutines();
-        TextDialog.text = Dialog[s_sequenceNumber].TextDialog;
+        StopAllCoroutines();
+        TextDialog.text = GetDialogueSequence().TextDialog;
         isTyping = false;
     }
 
@@ -162,7 +182,7 @@ public class MainGame : MonoBehaviour
     {   
         if(s_sequenceNumber == 4){
             s_sequenceNumber = 9-1;
-            UpdateDialogSequence(Dialog[s_sequenceNumber]);            
+            UpdateDialogSequence(GetDialogueSequence());            
         }
         if(s_sequenceNumber == 6){
             fin1(); 
@@ -171,20 +191,20 @@ public class MainGame : MonoBehaviour
         if(s_sequenceNumber == 21){
             victoire = false;
             s_sequenceNumber = 64-1; //TODO : Pas d'affichage des personnages
-            UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            UpdateDialogSequence(GetDialogueSequence());
             choix = 0;
             
         }
 
         if(s_sequenceNumber == 22){
             s_sequenceNumber = 66-1; //TODO : Pas d'affichage des personnages
-            UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            UpdateDialogSequence(GetDialogueSequence());
             choix = 0;
         }
 
         if(s_sequenceNumber == 65){
             s_sequenceNumber = 33-1; //TODO : Pas d'affichage des personnages
-            UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            UpdateDialogSequence(GetDialogueSequence());
             choix = 0;
         }
         if(s_sequenceNumber == 47){
@@ -231,7 +251,7 @@ public class MainGame : MonoBehaviour
                 s_sequenceNumber = Dialog.Length - 1;
             }
             HideButon();
-            UpdateDialogSequence(Dialog[s_sequenceNumber]);
+            UpdateDialogSequence(GetDialogueSequence());
         }
 
     }
@@ -259,7 +279,7 @@ public class MainGame : MonoBehaviour
 
     // On gère les boutons
     public void button(){
-        if(Dialog[s_sequenceNumber].affiche_choix == true){
+        if(GetDialogueSequence().affiche_choix == true){
             buttonNext.SetActive(false);
             choix1.SetActive(true);
             choix2.SetActive(true);
@@ -277,24 +297,24 @@ public class MainGame : MonoBehaviour
         if(s_sequenceNumber == 0){
             if(choix == 2){ // refuser
                 s_sequenceNumber = 1;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 choix = 0;
             }
             else if(choix == 1){
                 s_sequenceNumber =7 ; // accepter
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 choix = 0;
             }
         }
         if(s_sequenceNumber == 2){
             if(choix == 1){ // refuser
                 s_sequenceNumber = 5;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 choix = 0;
             }
             else if(choix == 2){ // accepter
                 s_sequenceNumber = s_sequenceNumber + 1;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 choix = 0;
             }
         }
@@ -302,24 +322,24 @@ public class MainGame : MonoBehaviour
         if(s_sequenceNumber == 9){
             if(choix == 1){ //Bureau
                 s_sequenceNumber = 32;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 choix = 0;
             }else if(choix == 2){ //Salle des clients
                 s_sequenceNumber = 10;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 choix = 0;
             }
         }
         if(s_sequenceNumber == 15){
             if(choix == 1){ // Dicussion
                 s_sequenceNumber = 23;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 choix = 0;
 
             }
             else if(choix == 2){// Accusation
                 s_sequenceNumber = 16;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 choix = 0;
 
             }
@@ -329,12 +349,12 @@ public class MainGame : MonoBehaviour
         if(s_sequenceNumber == 19){
             if(choix == 1){// Fouille
                 s_sequenceNumber = 22;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 choix = 0;
             }
             else if(choix==2){// Ne pas fouiller
                 s_sequenceNumber = 20;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 choix = 0;
             }
         }
@@ -347,12 +367,12 @@ public class MainGame : MonoBehaviour
         if(s_sequenceNumber == 26){
             if(choix == 1){// Fouille
                 s_sequenceNumber = 27;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 choix = 0;
             }
             else if(choix==2){// 
                 s_sequenceNumber = 30;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 choix = 0;
             }
         }
@@ -364,7 +384,7 @@ public class MainGame : MonoBehaviour
             }
             else if(choix == 2){// rien faire
                 s_sequenceNumber = 31;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 choix = 0;
             }
         }
@@ -375,7 +395,7 @@ public class MainGame : MonoBehaviour
             }
             else if(choix==2){// Rien faire
                 s_sequenceNumber = 31;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
             }
         }*/
 
@@ -385,29 +405,29 @@ public class MainGame : MonoBehaviour
             }
             else if(choix == 1){// retour bureau
                 s_sequenceNumber = 32;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]); 
+                UpdateDialogSequence(GetDialogueSequence()); 
             }
         }
 
         if (s_sequenceNumber == 39){
             if(choix == 1){//Confronter
                 s_sequenceNumber = 40;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
             }
             else if(choix == 2){//Rester dans le bureau 
                 s_sequenceNumber = 51;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
             }
         }
 
         if(s_sequenceNumber == 45){
             if(choix == 1){//Fouille la maison
                 s_sequenceNumber = 48;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);  
+                UpdateDialogSequence(GetDialogueSequence());  
             }
             else if(choix ==2){// piège
                 s_sequenceNumber = 46;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
             }
         }
         
@@ -417,11 +437,11 @@ public class MainGame : MonoBehaviour
         if(s_sequenceNumber == 58){
             if(choix == 1){//Fouille la maison
                s_sequenceNumber = 61;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]); 
+                UpdateDialogSequence(GetDialogueSequence()); 
             }
             else if(choix ==2){// piège
                 s_sequenceNumber = 59;
-                UpdateDialogSequence(Dialog[s_sequenceNumber]);
+                UpdateDialogSequence(GetDialogueSequence());
                 
             }
         }
@@ -430,9 +450,11 @@ public class MainGame : MonoBehaviour
  
     }
 
+    
+
     // On gère la narration
     public void narration(){
-        if(Dialog[s_sequenceNumber].narration == true){
+        if(GetDialogueSequence().narration == true){
             Debug.Log("narration");
             ImageCharacter.gameObject.SetActive(false);
             TextCharacterName.gameObject.SetActive(false);
@@ -471,4 +493,3 @@ public class MainGame : MonoBehaviour
     
 
 }
-
