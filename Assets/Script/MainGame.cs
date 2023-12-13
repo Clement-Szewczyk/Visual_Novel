@@ -221,6 +221,11 @@ public class MainGame : MonoBehaviour
             return;
         }
 
+        if(s_sequenceNumber == 66){
+            fin1();
+            return;
+        }
+
         affichage_text();
         if (isTyping)
         {
@@ -355,7 +360,9 @@ public class MainGame : MonoBehaviour
 
         if(s_sequenceNumber == 29){
             if(choix == 1){ // accuser
-                fin1();
+                s_sequenceNumber = 66;
+                UpdateDialogSequence(GetDialogueSequence());
+                choix = 0;
             }
             else if(choix == 2){// rien faire
                 s_sequenceNumber = 31;
