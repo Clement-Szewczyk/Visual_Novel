@@ -32,14 +32,29 @@ public class MainGame : MonoBehaviour
 
     private int Fin1 = 0;
 
-    private bool victoire = true;
+    private bool victoire;
+
+    public AudioSource game;
     
+    public AudioSource victorysound;
+    public AudioSource defeatsound;
 
     void Start()
-    {   // On cache les boutons non utilisés
+    {   
+        startgame();
+    }
+
+    public void startgame(){
+        //
+        // On cache les boutons non utilisés
         HideButon();
+        s_sequenceNumber = 0;
+        victoire = true;
         // On affiche le premier dialogue
         UpdateDialogSequence(Dialog[0]);
+        victorysound.Stop();
+        defeatsound.Stop();
+        game.Play();
         // On ajoute un listener sur les boutons
         choix1.GetComponent<Button>().onClick.AddListener(Bouton1);
         choix2.GetComponent<Button>().onClick.AddListener(Bouton2);
@@ -48,7 +63,6 @@ public class MainGame : MonoBehaviour
         Story();
         // On met la narration à false
         Dialog[s_sequenceNumber].narration = false;
-        
     }
 
     // Quand on clique sur le bouton 1
@@ -100,7 +114,7 @@ public class MainGame : MonoBehaviour
     }
 
     // On met à jour le dialogue
-    void UpdateDialogSequence(DialogueSequence sequence)
+    public void UpdateDialogSequence(DialogueSequence sequence)
     {   
         
         Debug.Log("UpdateDialogSequence en affichant la sequence : " + sequence);
@@ -131,6 +145,7 @@ public class MainGame : MonoBehaviour
         }
 
         isTyping = false;
+        StopAllCoroutines();
     }
 
     // On affiche tout le texte
@@ -148,6 +163,10 @@ public class MainGame : MonoBehaviour
         if(s_sequenceNumber == 4){
             s_sequenceNumber = 9-1;
             UpdateDialogSequence(Dialog[s_sequenceNumber]);            
+        }
+        if(s_sequenceNumber == 6){
+            fin1(); 
+            return;           
         }
         if(s_sequenceNumber == 21){
             victoire = false;
@@ -254,6 +273,7 @@ public class MainGame : MonoBehaviour
 
     // On gère les choix pour les différentes séquences qui en ont besoin
     public void Story(){
+
         if(s_sequenceNumber == 0){
             if(choix == 2){ // refuser
                 s_sequenceNumber = 1;
@@ -430,17 +450,21 @@ public class MainGame : MonoBehaviour
 
     // On gère la fin
     public void fin1(){
+            victoire = false;
             Debug.Log("fin1");
             Game.SetActive(false);
             End.SetActive(true);
+            
         
 
     }
 
     public void _Victoire(){
+        
         Debug.Log("victoire");
         Game.SetActive(false);
         Victoire.SetActive(true);
+        ;
     }
 
 
