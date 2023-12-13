@@ -19,8 +19,6 @@ public class MainGame : MonoBehaviour
     public GameObject choix1;
     public GameObject choix2;
     public GameObject buttonNext;
-   // public GameObject buttonBefore;
-
    public GameObject Game;
    public GameObject End;
 
@@ -32,7 +30,7 @@ public class MainGame : MonoBehaviour
 
     private int Fin1 = 0;
 
-    private bool victoire;
+    public bool victoire;
 
     public AudioSource game;
     
@@ -93,10 +91,8 @@ public class MainGame : MonoBehaviour
 
     // Quand on clique sur le bouton next
     void Next(){
-        Debug.Log("next");
         choix = 3;
         if(s_sequenceNumber == 7 ){
-            Debug.Log("fin");
             fin1();
         }
         Story();
@@ -117,13 +113,7 @@ public class MainGame : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             affichage_text();
-        }
-
-
-
-        Debug.Log("numéro de la séquence : " + s_sequenceNumber);
-
-        
+        }    
         
     }
 
@@ -131,14 +121,9 @@ public class MainGame : MonoBehaviour
     public void UpdateDialogSequence(DialogueSequence sequence)
     {   
         
-        Debug.Log("UpdateDialogSequence en affichant la sequence : " + sequence);
-        Debug.Log("Choix " + choix);
-        //StartCoroutine(TypeText(sequence.TextDialog));
-        // On met à jour les éléments du dialogue
-        //TextDialog.text = sequence.TextDialog;
 
-    // Arrêtez toutes les coroutines en cours avant de commencer une nouvelle
-     StopAllCoroutines();
+        // Arrêtez toutes les coroutines en cours avant de commencer une nouvelle
+        StopAllCoroutines();
 
 
         StartCoroutine(TypeText(sequence.TextDialog));
@@ -214,7 +199,6 @@ public class MainGame : MonoBehaviour
         }
 
         if(s_sequenceNumber == 50){
-            Debug.Log("fin");
             fin1();
             return;
         }
@@ -227,7 +211,6 @@ public class MainGame : MonoBehaviour
         if(s_sequenceNumber == 63){
             if(victoire == true){
                 //victoire
-                Debug.Log("Victoire");
                 _Victoire();
                 return;
             }
@@ -267,14 +250,6 @@ public class MainGame : MonoBehaviour
         {
             buttonNext.SetActive(true);
         }
-        /*if (s_sequenceNumber == 0)
-        {
-            buttonBefore.SetActive(false);
-        }
-        else
-        {
-            buttonBefore.SetActive(true);
-        }*/
     }
 
     // On gère les boutons
@@ -389,15 +364,6 @@ public class MainGame : MonoBehaviour
             }
         }
 
-        /*if(s_sequenceNumber == 30){
-            if(choix == 1){// Acusation 
-                fin1();
-            }
-            else if(choix==2){// Rien faire
-                s_sequenceNumber = 31;
-                UpdateDialogSequence(GetDialogueSequence());
-            }
-        }*/
 
         if(s_sequenceNumber == 31){
             if(choix == 2 ){// Quitter
@@ -455,14 +421,12 @@ public class MainGame : MonoBehaviour
     // On gère la narration
     public void narration(){
         if(GetDialogueSequence().narration == true){
-            Debug.Log("narration");
             ImageCharacter.gameObject.SetActive(false);
             TextCharacterName.gameObject.SetActive(false);
             ImageName.gameObject.SetActive(false);
             
         }
         else{
-            Debug.Log("pas narration");
             ImageCharacter.gameObject.SetActive(true);
             TextCharacterName.gameObject.SetActive(true);
             ImageName.gameObject.SetActive(true);
@@ -472,8 +436,8 @@ public class MainGame : MonoBehaviour
 
     // On gère la fin
     public void fin1(){
+            Debug.Log("victoire" + victoire);
             victoire = false;
-            Debug.Log("fin1");
             Game.SetActive(false);
             End.SetActive(true);
             
@@ -482,8 +446,6 @@ public class MainGame : MonoBehaviour
     }
 
     public void _Victoire(){
-        
-        Debug.Log("victoire");
         Game.SetActive(false);
         Victoire.SetActive(true);
         ;

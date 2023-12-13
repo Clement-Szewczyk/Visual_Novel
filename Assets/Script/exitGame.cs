@@ -24,11 +24,14 @@ public class exitGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("Start exitGame");
        gamesound.Stop(); 
-       if(mainGame.Victoire){
+       if(mainGame.victoire){
            victorysound.Play();
+           defeatsound.Stop();
          }else{
-              defeatsound.Play();
+            victorysound.Stop();
+            defeatsound.Play();
          }
     }
 

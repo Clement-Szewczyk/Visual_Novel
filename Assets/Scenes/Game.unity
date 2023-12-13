@@ -152,9 +152,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "\"Ce malandrin est apr\xE8s ma formule secr\xE8te depuis des ann\xE9es
+  TextDialog: "Ce malandrin est apr\xE8s ma formule secr\xE8te depuis des ann\xE9es
     ! On doit le suivre avant qu'il ne disparaisse dans son trou \xE0 rat !"
-  TextNameCharacter: M. Krabs
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: "Nous devons agir vite. Nous pouvons commencer par deux endroits o\xF9
     la recette aurait pu dispara\xEEtre : mon bureau ou salle des clients."
-  TextNameCharacter: M. Krabs
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: Examiner le Bureau
@@ -310,8 +310,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: M. Krabs, je pense savoir qui a pris la recette. C'est l'heure de la
-    confrontation.
+  TextDialog: Mrs. Krabs, je pense savoir qui a pris la recette. C'est l'heure de
+    la confrontation.
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextDialog: "Arm\xE9 de cette nouvelle information, vous d\xE9cidez de vous rendre
-    chez l'ancien employ\xE9, pr\xEAt \xE0 affronter ce qui vous attend."
+    chez Carlos, l'ancien employ\xE9, pr\xEAt \xE0 affronter ce qui vous attend."
   TextNameCharacter: 
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 02d4af6b69ec952488b1e5a398663a17, type: 3}
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "M. Krabs, avez-vous vu \xE7a ? Plankton vient de sortir en courant
+  TextDialog: "Mrs. Krabs, avez-vous vu \xE7a ? Plankton vient de sortir en courant
     avec quelque chose dans la main."
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
@@ -688,7 +688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "M. Krabs, pouvez-vous me parler de cet ancien employ\xE9 ? Comment
+  TextDialog: "Mrs. Krabs, pouvez-vous me parler de cet ancien employ\xE9 ? Comment
     \xE9tait-il ?"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
@@ -1316,14 +1316,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Mr Krabs vous tends la fiche d'un employ\xE9. Vous reconnaissez le
-    visage souriant d'un employ\xE9 qui ne travaille plus ici. \"Pourrait-il \xEAtre
+  TextDialog: "Mrs. Krabs vous tends la fiche d'un employ\xE9. Vous reconnaissez
+    le visage souriant d'un employ\xE9 qui ne travaille plus ici. \"Pourrait-il \xEAtre
     le coupable ?\" vous demandez-vous. La piste du v\xE9ritable coupable semble
     se dessiner."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
-  Choix1: Confornter le coupable
+  Choix1: Confornter le Carlos
   Choix2: "Continuer l'enqu\xEAte dans le bureau"
   affiche_choix: 1
   narration: 1
@@ -1386,8 +1386,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Vous vous dirigez r\xE9solument vers l'ancien employ\xE9, qui se tient
-    non loin, l'air nerveux mais essayant de se fondre dans la foule."
+  TextDialog: "Vous vous dirigez r\xE9solument vers la demeure de Carlos, qui se
+    tient non loin, l'air nerveux mais essayant de se fondre dans la foule."
   TextNameCharacter: 
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 02d4af6b69ec952488b1e5a398663a17, type: 3}
@@ -1877,7 +1877,7 @@ MonoBehaviour:
   TextDialog: "Vous doutez de moi ?! Dans un moment comme celui-ci ?! Si vous n'\xEAtes
     pas avec moi, vous \xEAtes contre moi ! Sortez de mon restaurant et ne revenez
     que lorsque vous serez pr\xEAts \xE0 m'aider !"
-  TextNameCharacter: M. Krabs
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: Refuser d'aider
@@ -2425,7 +2425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: "Par les sept mers, c'\xE9tait s\xFBrement lui ! V\xE9rifiez autour,
     voyez si les clients ont remarqu\xE9 autre chose."
-  TextNameCharacter: M. Krabs
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
@@ -3132,7 +3132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: "Vous vous faufilez \xE0 l'int\xE9rieur et, apr\xE8s une recherche
     minutieuse, vous trouvez un papier soigneusement cach\xE9. C'est la recette secr\xE8te
-    de M. Krabs !"
+    de Mrs. Krabs !"
   TextNameCharacter: 
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 7dce4c0203e6dfe42b4d133ee3912eba, type: 3}
@@ -3296,7 +3296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Le bureau de M. Krabs \xE9tait un m\xE9lange curieux d'ordre et de
+  TextDialog: "Le bureau de Mrs Krabs \xE9tait un m\xE9lange curieux d'ordre et de
     chaos. Des piles de pi\xE8ces de monnaie soigneusement compt\xE9es partageaient
     l'espace avec des montagnes de papiers h\xE2tivement empil\xE9s. En scrutant
     la pi\xE8ce, vous remarquez.."
@@ -3351,7 +3351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "M. Krabs, le coffre-fort est ouvert. La recette a-t-elle \xE9t\xE9
+  TextDialog: "Mrs. Krabs, le coffre-fort est ouvert. La recette a-t-elle \xE9t\xE9
     gard\xE9e ici ?"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
@@ -3590,7 +3590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Euh, M. Krabs, \xEAtes-vous s\xFBr que la recette a vraiment disparu
+  TextDialog: "Euh, Mrs. Krabs, \xEAtes-vous s\xFBr que la recette a vraiment disparu
     ? Peut-\xEAtre que vous l'avez juste \xE9gar\xE9e..."
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
@@ -3922,7 +3922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: "Seul un ancien employ\xE9 renvoy\xE9 conna\xEEtrait le coffre... et
     il \xE9tait particuli\xE8rement rancunier."
-  TextNameCharacter: M.Krab
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
@@ -4956,7 +4956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Ne vous inqui\xE9tez pas, M. Krabs, nous allons commencer l'enqu\xEAte
+  TextDialog: "Ne vous inqui\xE9tez pas, Mrs. Krabs, nous allons commencer l'enqu\xEAte
     tout de suite et retrouver votre recette !"
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
@@ -5026,10 +5026,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: "Mes amis, j'ai besoin de votre aide ! Ma recette secr\xE8te a disparu,
     et sans elle, le Crabe Croustillant est fini !"
-  TextNameCharacter: M. Krabs
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
-  Choix1: "Aider M. Krabs imm\xE9diatement."
+  Choix1: "Aider Mrs. Krabs imm\xE9diatement."
   Choix2: Exprimer des doutes.
   affiche_choix: 1
   narration: 0
@@ -5206,9 +5206,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Vous pr\xE9parez un pi\xE8ge habile, esp\xE9rant capturer l'ancien
-    employ\xE9 \xE0 son retour. Mais, comme si anticipant vos intentions, il aper\xE7oit
-    votre man\xE8ge et s'enfuit, disparaissant dans les ombres de Bikini Bottom."
+  TextDialog: "Vous pr\xE9parez un pi\xE8ge habile, esp\xE9rant capturer Carlos \xE0
+    son retour. Mais, comme si anticipant vos intentions, il aper\xE7oit votre man\xE8ge
+    et s'enfuit, disparaissant dans les ombres de Bikini Bottom."
   TextNameCharacter: 
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 02d4af6b69ec952488b1e5a398663a17, type: 3}
@@ -5316,7 +5316,7 @@ MonoBehaviour:
   TextDialog: "Vous fouillez m\xE9ticuleusement le laboratoire. Parmi les plans de
     gadgets et inventions, vous trouvez des notes sur une rancune tenace envers M.
     Krabs et un plan de revanche sophistiqu\xE9 impliquant une nouvelle invention."
-  TextNameCharacter: M. Krabs
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: Acuser Plankton
@@ -5420,7 +5420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Retournons au Crabe Croustillant. Peut-\xEAtre avons-nous manqu\xE9
+  TextDialog: "Retournons au Krab Croustillant. Peut-\xEAtre avons-nous manqu\xE9
     quelque chose dans votre bureau."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
@@ -5488,9 +5488,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "C'est bien possible. Il connaissait le Crabe Croustillant comme sa
+  TextDialog: "C'est bien possible. Il connaissait le krab Croustillant comme sa
     poche. Mais soyez prudent, ce type est impr\xE9visible."
-  TextNameCharacter: M.Krab
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
@@ -5594,7 +5594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Plankton, on t'a vu sortir pr\xE9cipitamment du Crabe Croustillant.
+  TextDialog: "Plankton, on t'a vu sortir pr\xE9cipitamment du Krab Croustillant.
     Que faisais-tu avec ce papier ?"
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
@@ -5650,7 +5650,7 @@ MonoBehaviour:
   TextDialog: "Oui, c'est l\xE0 que je garde la formule secr\xE8te ! Mais je suis
     le seul \xE0 conna\xEEtre la combinaison. Quelqu'un a d\xFB observer par-dessus
     mon \xE9paule..."
-  TextNameCharacter: M.Krab
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
@@ -5701,7 +5701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "...que le coffre-fort o\xF9 M. Krabs conserve ses pr\xE9cieuses formules
+  TextDialog: "...que le coffre-fort o\xF9 Mrs Krabs conserve ses pr\xE9cieuses formules
     est entrouvert ! Pourtant, pas un seul centime n'a \xE9t\xE9 vol\xE9."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
@@ -5756,7 +5756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: "Humph, j'esp\xE8re que vous \xEAtes sinc\xE8re. Nous n'avons pas de
     temps \xE0 perdre. Venez, nous avons une recette \xE0 retrouver !"
-  TextNameCharacter: M. Krabs
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
@@ -6203,7 +6203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Je vais jeter un \u0153il dans votre bureau, M. Krabs. Si la recette
+  TextDialog: "Je vais jeter un \u0153il dans votre bureau, Mrs. Krabs. Si la recette
     a \xE9t\xE9 prise ici, il doit y avoir des indices."
   TextNameCharacter: Bob
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
@@ -6348,7 +6348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: "Oh, merci mes fid\xE8les employ\xE9s ! Je savais que je pouvais compter
     sur vous. Suivez moi !"
-  TextNameCharacter: M. Krabs
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
@@ -6399,8 +6399,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Peut-\xEAtre que vous avez raison, M. Krabs. Peut-\xEAtre que je ne
-    suis pas fait pour ce genre de travail. Je vais partir."
+  TextDialog: "Peut-\xEAtre que vous avez raison, Mrs. Krabs. Peut-\xEAtre que je
+    ne suis pas fait pour ce genre de travail. Je vais partir."
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
@@ -6898,8 +6898,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextDialog: "Vous entrez discr\xE8tement, mais vous trouvez rapidement des documents
-    d\xE9chir\xE9s, signe que l'ancien employ\xE9 a anticip\xE9 votre visite et s'est
-    d\xE9barrass\xE9 de toute preuve."
+    d\xE9chir\xE9s, signe que Carlos a anticip\xE9 votre visite et s'est d\xE9barrass\xE9
+    de toute preuve."
   TextNameCharacter: 
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 7dce4c0203e6dfe42b4d133ee3912eba, type: 3}
@@ -7130,7 +7130,7 @@ MonoBehaviour:
   TextDialog: "Ah, cet gaillard \xE9tait un cas difficile. Pas facile \xE0 g\xE9rer,
     toujours en train de grincer des dents. Il \xE9tait dangereux, je vous le dis.
     Le jour o\xF9 je l'ai renvoy\xE9, il a jur\xE9 de se venger."
-  TextNameCharacter: M.Krab
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
@@ -7236,7 +7236,7 @@ MonoBehaviour:
   TextDialog: "Vous suivez la piste de Plankton jusqu'\xE0 son laboratoire. La porte
     s'ouvre avec un grincement alors que vous entrez, d\xE9termin\xE9 \xE0 d\xE9couvrir
     la v\xE9rit\xE9."
-  TextNameCharacter: M. Krab
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
   Choix1: Discuter avec Plankton
@@ -7272,7 +7272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "Devant la demeure d\xE9labr\xE9e de l'ancien employ\xE9, vous r\xE9fl\xE9chissez
+  TextDialog: "Devant la demeure d\xE9labr\xE9e de Carlos, vous r\xE9fl\xE9chissez
     \xE0 votre prochaine action."
   TextNameCharacter: 
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
@@ -7340,8 +7340,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033549696d592a54b9e6ea4bada689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextDialog: "La maison est vide de tout indice utile. La recette de M. Krabs reste
-    introuvable, et le coupable a effac\xE9 ses traces. Une occasion manqu\xE9e."
+  TextDialog: "La maison est vide de tout indice utile. La recette de Mrs. Krabs
+    reste introuvable, et le coupable a effac\xE9 ses traces. Une occasion manqu\xE9e."
   TextNameCharacter: 
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 7dce4c0203e6dfe42b4d133ee3912eba, type: 3}
@@ -7529,7 +7529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: "Si vous croyez que c'est n\xE9cessaire... Mais faites attention. On
     ne sait jamais ce qu'un homme d\xE9sesp\xE9r\xE9 peut faire."
-  TextNameCharacter: M.Krab
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 475f79ab3b72e4343a1a9a2861eed1da, type: 3}
   Choix1: 
@@ -7702,7 +7702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextDialog: On sait que tu as pris quelque chose, Plankton ! Rends la recette de
-    M. Krabs maintenant !
+    Mrs. Krabs maintenant !
   TextNameCharacter: BOB
   SpriteCharacter: {fileID: 21300000, guid: 722d28b6babf8af49ad238c3e6eff363, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 719d1ea2722114e429c362b45914ed24, type: 3}
@@ -7756,7 +7756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextDialog: "Eh bien, c'est dommage de vous voir choisir \xE7a, mais je suppose
     que je dois respecter votre d\xE9cision. Au revoir."
-  TextNameCharacter: M Krabs
+  TextNameCharacter: Mrs. Krabs
   SpriteCharacter: {fileID: 21300000, guid: f68807f19d63a644ab3c7075475700a3, type: 3}
   SpriteBackground: {fileID: 21300000, guid: 293ee19e3edd3f446957fe0fe2a3a5ae, type: 3}
   Choix1: 
